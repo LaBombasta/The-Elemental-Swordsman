@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &971439526613011045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2347441056932098293, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: teamFlag
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347441056932098293, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: magicDamage
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347441056932098293, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: lingeringEffect
+      value: 
+      objectReference: {fileID: 3360838206360837181, guid: 5328aea8a3e413c4fa119243066287be, type: 3}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155052369590603118, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469095996513543955, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
+      propertyPath: m_Name
+      value: Boss_WaterBall Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 524a58dfda4d47d4f9dc073b902a43ef, type: 3}
