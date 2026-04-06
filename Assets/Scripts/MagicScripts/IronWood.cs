@@ -4,9 +4,19 @@ using UnityEngine;
 
 public class IronWood : BasicSpell
 {
+    private Animator ani;
+    public override void Start()
+    {
+        base.Start();
+        ani = GetComponent<Animator>();
+        ani.SetInteger("TeamFlag", (int)teamFlag);
+
+    }
+
     public void Implosion()
     {
-        AudioSource.PlayClipAtPoint(SFXCexplosion, transform.position, 1f);
+        
+        AudioSource.PlayClipAtPoint(SFX_explosion, transform.position, 1f);
 
         if (VFX_explosion != null)
         {
@@ -25,11 +35,28 @@ public class IronWood : BasicSpell
                 Rigidbody2D rb = j.GetComponent<Rigidbody2D>();
                 if (rb != null)
                 {
+                    float explosionForce;
                     Vector2 distance = j.transform.position - transform.position;
-                    float explosionForce = explosionForceMultiplier / distance.magnitude;
-                    j.BroadcastMessage("TakeDamage", _AttackValues, SendMessageOptions.DontRequireReceiver);
+                    if(distance.magnitude !=0)
+                    {
+                        explosionForce = explosionForceMultiplier / distance.magnitude;
+                    }
+                    else
+                    {
+                        explosionForce = explosionForceMultiplier / .01f;
+                    }
+                    
+                    j.BroadcastMessage("TakeDamage", AttackValues, SendMessageOptions.DontRequireReceiver);
                     rb.velocity = new Vector2(0, 0);
-                    rb.AddForce(distance.normalized * -explosionForce);
+                    if(distance.normalized != Vector2.zero)
+                    {
+                        rb.AddForce(distance.normalized * -explosionForce);
+                    }
+                    else
+                    {
+                        rb.AddForce(new Vector2(.01f, .01f) * -explosionForce);
+                    }
+                   
                 }
             }
 

@@ -15,7 +15,7 @@ public class BasicSpell : MonoBehaviour
     [Header("Damage Values")]
     [SerializeField] protected MagicType magicType;
     [SerializeField] protected StatusEffect statusEffect;
-    [SerializeField] protected float[] _AttackValues = new float[8];
+    protected float[] AttackValues = new float[8];
     [SerializeField] protected float baseDamage;
     [SerializeField] protected float magicDamage;
     [SerializeField] protected float stunTime;
@@ -24,8 +24,8 @@ public class BasicSpell : MonoBehaviour
     [SerializeField] protected float speed;
     [SerializeField] protected float lifeTime;
 
-    [Header("Explosion Values")]
-    [SerializeField] protected AudioClip SFXCexplosion;
+    [Header("Impact Values")]
+    [SerializeField] protected AudioClip SFX_explosion;
     [SerializeField] protected ParticleSystem VFX_explosion;
     [SerializeField] protected float explosionForceMultiplier = 10;
     [SerializeField] protected float explosionRadius = 1;
@@ -39,11 +39,11 @@ public class BasicSpell : MonoBehaviour
         Invoke(nameof(EndSpell), lifeTime);
         if (GetComponent<Rigidbody2D>())
         {rb = GetComponent<Rigidbody2D>();}
-        _AttackValues[0] = baseDamage;
-        _AttackValues[1] = magicDamage;
-        _AttackValues[2] = (float)magicType;
-        _AttackValues[3] = (float)statusEffect;
-        _AttackValues[4] = stunTime;
+        AttackValues[0] = baseDamage;
+        AttackValues[1] = magicDamage;
+        AttackValues[2] = (float)magicType;
+        AttackValues[3] = (float)statusEffect;
+        AttackValues[4] = stunTime;
         if (GetComponent<Rigidbody2D>())
         { rb.velocity = speed * -transform.up; }
     }
@@ -60,7 +60,7 @@ public class BasicSpell : MonoBehaviour
 
     public virtual void Explode()
     {
-        AudioSource.PlayClipAtPoint(SFXCexplosion, transform.position,1f);
+        AudioSource.PlayClipAtPoint(SFX_explosion, transform.position,1f);
 
         if (VFX_explosion != null)
         {
@@ -81,10 +81,14 @@ public class BasicSpell : MonoBehaviour
                 {
                     Vector2 distance = j.transform.position - transform.position;
                     float explosionForce = explosionForceMultiplier / distance.magnitude;
-                    j.BroadcastMessage("TakeDamage", _AttackValues, SendMessageOptions.DontRequireReceiver);
+                    j.BroadcastMessage("TakeDamage", AttackValues, SendMessageOptions.DontRequireReceiver);
                     rb.velocity = new Vector2(0, 0);
                     rb.AddForce(distance.normalized * explosionForce);
                 }
+            }
+            else if (j.GetComponent<EnvironmentDestructable>())
+            {
+                j.BroadcastMessage("TakeDamage", AttackValues, SendMessageOptions.DontRequireReceiver);
             }
 
         }

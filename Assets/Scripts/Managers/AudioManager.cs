@@ -19,6 +19,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioClip bossWarpReversed;
     [SerializeField] AudioClip bossPowerUp;
     [SerializeField] AudioClip bossSpellFired;
+    [SerializeField] AudioClip wallCrumble;
+    [SerializeField] AudioClip wallImmune;
 
 
 
@@ -74,6 +76,14 @@ public class AudioManager : MonoBehaviour
     public void PlayBossSpellFired()
     {
         SFXSource.PlayOneShot(bossSpellFired);
+    }
+    public void PlayWallCrumble()
+    {
+        SFXSource.PlayOneShot(wallCrumble);
+    }
+    public void PlayWallImmune()
+    {
+        SFXSource.PlayOneShot(wallImmune);
     }
     public void PlayBossMusic()
     {

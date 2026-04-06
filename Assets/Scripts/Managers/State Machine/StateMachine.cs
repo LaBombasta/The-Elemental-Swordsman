@@ -50,7 +50,7 @@ public class StateMachine : MonoBehaviour
             CurrentState.OnUpdate();
         }
     }
-
+    
     private void SetState(State _newState)
     {
         if(CurrentState!=null)
@@ -94,16 +94,5 @@ public class StateMachine : MonoBehaviour
        //Debug.Log("I'm deaddd");
         nextState = finalStateType;
     }
-    /*
-    private void OnValidate()
-    {
-        if(mainStateType == null)
-        {
-            if(customName == "Combat")
-            {
-                mainStateType = new IdleCombatState();
-            }
-        }
-    }
-    */
+    
 }

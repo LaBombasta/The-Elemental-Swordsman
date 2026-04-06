@@ -93,7 +93,7 @@ MonoBehaviour:
   - {fileID: 6946079014957383491}
   - {fileID: 2747681586811008056}
   - {fileID: 8259105089941530509}
-  spell: {fileID: 4342828647892370215, guid: 30bde98b3f7efb242adfe072bf0e2083, type: 3}
+  ObjectToSpawn: {fileID: 4342828647892370215, guid: 30bde98b3f7efb242adfe072bf0e2083, type: 3}
 --- !u!114 &8112176174438447576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,6 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accd503d6f7a9764888059706a0d48d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 3
 --- !u!1 &1671134871937066709
 GameObject:
   m_ObjectHideFlags: 0

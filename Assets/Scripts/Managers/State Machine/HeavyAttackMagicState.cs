@@ -7,8 +7,9 @@ public class HeavyAttackMagicState : AttackBaseState
     public override void OnEnter(StateMachine _stateMachine)
     {
         base.OnEnter(_stateMachine);
-
+        CheckCombo();
         AssignAttackValues(5);
+        myCharacter.perfectPress = false;
         attackType = AttackType.Heavy;
         attackIndex = 3;
         animator.SetTrigger(attackType.ToString() + "Attack" + attackIndex);

@@ -7,7 +7,9 @@ public class MagicNoPreparationState : AttackBaseState
     public override void OnEnter(StateMachine _stateMachine)
     {
         base.OnEnter(_stateMachine);
+        CheckCombo();
         AssignAttackValues(9);
+        myCharacter.perfectPress = false;
         animator.SetTrigger("NoPreparation");
         //Debug.Log("Magic Preparation State");
     }

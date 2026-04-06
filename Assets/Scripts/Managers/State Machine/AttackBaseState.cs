@@ -21,10 +21,12 @@ public class AttackBaseState : State
     protected bool canComboL;
     protected bool canComboH;
     protected bool canComboN;
+    protected float comboXDamage;
     protected bool pressed = false;
     protected bool attackTransition = false;
     private bool nudgeTrigger = false;
 
+    protected CharacterStats myCharacter;
     protected Rigidbody2D rb;
     protected Collider2D hitCollider;
     protected HitBoxType hitBehaviour;
@@ -36,6 +38,8 @@ public class AttackBaseState : State
     public override void OnEnter(StateMachine _stateMachine)
     {
         base.OnEnter(_stateMachine);
+        pressed = false;
+        myCharacter = GetComponent<CharacterStats>();
         
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -59,7 +63,9 @@ public class AttackBaseState : State
 
     public override void OnExit()
     {
-        pressed = false;
+        
+        
+        //Debug.Log("this is at the end " + pressed);
         base.OnExit();
     }
 
@@ -69,15 +75,31 @@ public class AttackBaseState : State
         
         if (!pressed)
         {
+
+            //Debug.Log("I should only be called once");
             InputManager._lightAttack.performed += context => canComboL = true;
             InputManager._heavyAttack.performed += context => canComboH = true;
             InputManager._magicPrep.performed += context => canComboN = true;
-            pressed = true;
-        }
+            
+            //Debug.Log(pressed);
+            
+            if(canComboH || canComboL || canComboN)
+            {
+                //if sweetspot is active set perfect press
+                if (characterStats.team == TeamIdentity.Player && animator.GetFloat("PerfectWindow") > 0.1f)
+                {
+                    //Debug.Log(animator.GetFloat("PerfectWindow"));
+                    myCharacter.perfectPress = true;
 
+                }
+                pressed = true;
+            }
+            
+        }
 
         if (animator.GetFloat("ActiveAttack") > 0f)
         {
+            //CheckCombo();
             Attack();
         }
         
@@ -108,11 +130,17 @@ public class AttackBaseState : State
                 // Only check colliders with a valid Team Componnent attached
                 if (hitEntity && (hitEntity.team != characterStats.team))
                 {
+
                     collidersToDamage[i].BroadcastMessage("TakeDamage",damageValues, SendMessageOptions.DontRequireReceiver);
                     //GameObject.Instantiate(HitEffectPrefab, collidersToDamage[i].transform);
                     //Debug.Log("Enemy Has Taken:" + attackIndex + "Damage");
                     collidersDamaged.Add(collidersToDamage[i].gameObject);
                     hitBehaviour.ApplyKnockBack(collidersToDamage[i].gameObject, movement, knockback);
+                }
+                else if(collidersToDamage[i].GetComponent<EnvironmentDestructable>())
+                {
+                    collidersToDamage[i].BroadcastMessage("TakeDamage", damageValues, SendMessageOptions.DontRequireReceiver);
+                    collidersDamaged.Add(collidersToDamage[i].gameObject);
                 }
             }
         }
@@ -149,7 +177,7 @@ public class AttackBaseState : State
     public virtual void AssignAttackValues(int index)
     {
         AttackEditorValues attackValue = characterStats.AttackValue[index];
-        damageValues[0] = attackValue.baseDamage;
+        damageValues[0] = attackValue.baseDamage*comboXDamage;
         damageValues[1] = attackValue.magicDamage;
         damageValues[2] = (int)attackValue.magicType;
         if(GetComponent<MagicSystem>())
@@ -163,5 +191,18 @@ public class AttackBaseState : State
         knockback = attackValue.Knockback;
     }
     
+    public virtual void CheckCombo()
+    {
+        if (myCharacter.perfectPress)
+        {
+            comboXDamage = 1.5f;
+            //Debug.Log("I should be multiplying");
+        }
+        else
+        {
+            comboXDamage = 1f;
+        }
+        //Debug.Log(comboXDamage);
+    }
 
 }

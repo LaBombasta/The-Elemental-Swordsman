@@ -61,6 +61,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4825453577999961595, guid: 30bde98b3f7efb242adfe072bf0e2083, type: 3}
+      propertyPath: knockback
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825453577999961595, guid: 30bde98b3f7efb242adfe072bf0e2083, type: 3}
       propertyPath: magicDamage
       value: 5
       objectReference: {fileID: 0}

@@ -43,8 +43,7 @@ public class TriggerSpawner : MonoBehaviour
         {
             
             int rando = Random.Range((int)0, spawnPoints.Length);
-            int endo = Random.Range((int)0, enemyToSpawn.Length);
-            GameObject gameObject1 = Instantiate(enemyToSpawn[endo], spawnPoints[rando].transform.position, Quaternion.identity);
+            GameObject gameObject1 = Instantiate(enemyToSpawn[i], spawnPoints[rando].transform.position, Quaternion.identity);
             GameObject enemy = gameObject1;
             activeEnemies.Add(enemy);
             yield return new WaitForSeconds(.01f);

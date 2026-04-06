@@ -106,21 +106,12 @@ MonoBehaviour:
   hitCollider: {fileID: 0}
   magicType: 3
   statusEffect: 0
-  _AttackValues:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
   baseDamage: 0
   magicDamage: 85
   stunTime: 0
   speed: 10
   lifeTime: 1.5
-  SFXCexplosion: {fileID: 8300000, guid: 85e2cb5da18f8bb4c90ed6c3a063e698, type: 3}
+  SFX_explosion: {fileID: 8300000, guid: a16b2f804d68c704fb7f643baaf12e25, type: 3}
   VFX_explosion: {fileID: 0}
   explosionForceMultiplier: 100
   explosionRadius: 2

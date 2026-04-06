@@ -13,12 +13,15 @@ public class AwakenBoss : MonoBehaviour
         
         if(collision.GetComponent<CharacterStats>() && !triggered)
         {
-            StartCoroutine(StartBossMusic());
-            Boss.SetActive(true);
-            BossHealth.SetActive(true);
-            triggered = true;
+            TeamIdentity PlayerOnlyTrigger = collision.GetComponent<CharacterStats>().team;
+            if (PlayerOnlyTrigger == TeamIdentity.Player)
+            {
+                StartCoroutine(StartBossMusic());
+                Boss.SetActive(true);
+                BossHealth.SetActive(true);
+                triggered = true;
+            }
         }
-
     }
     private IEnumerator StartBossMusic()
     {

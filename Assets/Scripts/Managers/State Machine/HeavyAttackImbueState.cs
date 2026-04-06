@@ -7,8 +7,11 @@ public class HeavyAttackImbueState : AttackBaseState
     public override void OnEnter(StateMachine _stateMachine)
     {
         base.OnEnter(_stateMachine);
-
+        //Debug.Log("this is the start of the imbue state");
+        //Debug.Log("This is heavy imbue perfect press" + myCharacter.perfectPress);
+        CheckCombo();
         AssignAttackValues(4);
+        myCharacter.perfectPress = false;
         attackType = AttackType.Heavy;
         attackIndex = 2;
         animator.SetTrigger(attackType.ToString() + "Attack" + attackIndex);

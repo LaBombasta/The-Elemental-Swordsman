@@ -7,7 +7,9 @@ public class MagicLightCastState : AttackBaseState
     public override void OnEnter(StateMachine _stateMachine)
     {
         base.OnEnter(_stateMachine);
+        CheckCombo();
         AssignAttackValues(8);
+        myCharacter.perfectPress = false;
         animator.SetTrigger("MagicLight");
         Debug.Log("Magic Light State");
     }

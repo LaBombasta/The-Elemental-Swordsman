@@ -47,7 +47,7 @@ public class BossEnemyAi : MonoBehaviour
     {
         StartCoroutine("BossPattern");
         //EvaluateBehaviour();
-        bossCharacter.invincible = true;
+        bossCharacter.Invincible = true;
         //rb.MovePosition(new Vector2(0,0));
     }
     public IEnumerator BossPattern()
@@ -144,7 +144,7 @@ public class BossEnemyAi : MonoBehaviour
         if(shieldHP<=0)
         {
             ZeroOutMovement();
-            bossCharacter.invincible = false;
+            bossCharacter.Invincible = false;
             AudioManager.instance.PlayBreakingShield();
             AudioManager.instance.PlayBossHurt();
             ShieldIntegrity.sprite = null;
@@ -173,7 +173,7 @@ public class BossEnemyAi : MonoBehaviour
             crystal[j].SetActive(true);
             crystal[j + 4].SetActive(true);
         }
-            bossCharacter.invincible = true;
+            bossCharacter.Invincible = true;
     }
     private void FloatToTarget()
     {

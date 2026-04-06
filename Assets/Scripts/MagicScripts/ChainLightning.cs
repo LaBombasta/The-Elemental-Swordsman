@@ -42,6 +42,11 @@ public class ChainLightning : BasicSpell
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.GetComponent<EnvironmentDestructable>())
+        {
+            Debug.Log("im here");
+            collision.gameObject.GetComponent<CharacterStats>().TakeDamage(AttackValues);
+        }
         
         if(enemyLayer == (enemyLayer | (1<< collision.gameObject.layer)) && !collision.GetComponentInChildren<Destroymyself>())
         {
@@ -56,7 +61,7 @@ public class ChainLightning : BasicSpell
 
                     Instantiate(beenStruck, collision.gameObject.transform);
 
-                    collision.gameObject.GetComponent<CharacterStats>().TakeDamage(_AttackValues);
+                    collision.gameObject.GetComponent<CharacterStats>().TakeDamage(AttackValues);
 
                     ani.StopPlayback();
 

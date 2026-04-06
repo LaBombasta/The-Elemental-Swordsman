@@ -22,8 +22,6 @@ public class ComboStarter : MonoBehaviour
 
         if (InputManager._lightAttack.WasPressedThisFrame() && meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
         {
-            //if you were making something with different status ie walking, in air, swimming this next line is where you assign different actions
-            //meleeStateMachine.SetNextState(new CombatEntryState)
 
             meleeStateMachine.SetNextState(new LightAttackEntryState());
         }

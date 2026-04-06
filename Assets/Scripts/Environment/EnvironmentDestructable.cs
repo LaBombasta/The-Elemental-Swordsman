@@ -6,23 +6,34 @@ public class EnvironmentDestructable : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer mySkin;
     [SerializeField] private int timesToHit;
-    private Material blankCanvas;
-    private Material origColor;
+    [SerializeField] private MagicType weakness; 
+    [SerializeField] private Sprite[] imageSwaps;
+    private int spriteIndex = 0;
     [SerializeField] private Color flash1 = Color.red;
     [SerializeField] private Color flash2 = Color.white;
+    private Color origColor;
     private bool dead = false;
 
     void Start()
     {
-        mySkin = GetComponent<SpriteRenderer>();
+        origColor = GetComponent<SpriteRenderer>().color;
         //Debug.Log(timesToHit);
     }
-    private void TakeDamage()
+
+    public void TakeDamage(float[] damageValues)
     {
-        Debug.Log("HitMe");
+        
+        if((MagicType)damageValues[2] != weakness||dead == true)
+        {
+            AudioManager.instance.PlayWallImmune();
+            return; 
+        }
+        AudioManager.instance.PlayWallCrumble();
+        //Debug.Log("HitMe");
         StartCoroutine(Flash());
         timesToHit--;
-       
+        spriteIndex++;
+        mySkin.sprite = imageSwaps[spriteIndex];
         if(timesToHit<1&&!dead)
         {
             dead = true;
@@ -41,11 +52,11 @@ public class EnvironmentDestructable : MonoBehaviour
             timer += Time.deltaTime + .2f;
             yield return null;
         }
-        mySkin.color = Color.white; ;
+        mySkin.color = origColor;
     }
     private void Die()
     {
-        Destroy(this.gameObject, .5f);
+        Destroy(this.gameObject, .1f);
         //This is where you put a death animation and such 
         // or create particle effects. 
     }

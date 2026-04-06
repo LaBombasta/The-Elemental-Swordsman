@@ -7,7 +7,9 @@ public class LightAttackMagicState : AttackBaseState
     public override void OnEnter(StateMachine _stateMachine)
     {
         base.OnEnter(_stateMachine);
+        CheckCombo();
         AssignAttackValues(2);
+        myCharacter.perfectPress = false;
         attackType = AttackType.Light;
         attackIndex = 3;
         animator.SetTrigger(attackType.ToString() + "Attack" + attackIndex);

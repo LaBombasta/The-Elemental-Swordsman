@@ -27,7 +27,7 @@ public class BurningGround : BasicSpell
             // Only check colliders with a valid Team Componnent attached
             if (hitEntity && (hitEntity.team != teamFlag))
             {
-                j.BroadcastMessage("TakeDamage", _AttackValues, SendMessageOptions.DontRequireReceiver);
+                j.BroadcastMessage("TakeDamage", AttackValues, SendMessageOptions.DontRequireReceiver);
             }
         }
         //collidersToDamage = null;

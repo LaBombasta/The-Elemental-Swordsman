@@ -13,6 +13,11 @@ public class Fireball : BasicSpell
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.gameObject.layer == 6)
+        {
+            EndSpell();
+            return;
+        }
         collidersToDamage = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
 
         foreach (Collider2D j in collidersToDamage)
@@ -23,12 +28,12 @@ public class Fireball : BasicSpell
             // Only check colliders with a valid Team Componnent attached
             if (hitEntity && (hitEntity.team != teamFlag))
             {
+                j.BroadcastMessage("TakeDamage", AttackValues, SendMessageOptions.DontRequireReceiver);
                 Rigidbody2D rb = j.GetComponent<Rigidbody2D>();
                 if (rb != null)
                 {
                     Vector2 distance = j.transform.position - transform.position;
                     float explosionForce = explosionForceMultiplier / distance.magnitude;
-                    j.BroadcastMessage("TakeDamage", _AttackValues, SendMessageOptions.DontRequireReceiver);
                     rb.velocity = new Vector2(0, 0);
                     rb.AddForce(distance.normalized * explosionForce);
                 }

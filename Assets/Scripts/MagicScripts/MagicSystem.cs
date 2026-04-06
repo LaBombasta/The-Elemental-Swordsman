@@ -79,56 +79,15 @@ public class MagicSystem : MonoBehaviour
     {
         /*This is going to index by 0 4 8 12 
          * 0 light attack infuse
-         * 3 heavy attack infuse
-         * 7 light attack Full Spell
-         * 11 heavy attack Full Spell
+         * 4 heavy attack infuse
+         * 8 light attack Full Spell
+         * 12 heavy attack Full Spell
          */
         if(currentMagicType != MagicType.None && spellPrefab[((int)currentMagicType + indexer)]!= null)
         { 
             Instantiate(spellPrefab[((int)currentMagicType + indexer)], spawnPoint.transform.position, spawnPoint.transform.rotation);
         }
         
-        /*
-        switch (currentMagicType)
-        {
-            case MagicType.Lightning:
-                Debug.Log("Cast light lightning");
-                if (LightningCooldown >= LightningCoolDownTotal && canCast)
-                {
-                    Instantiate(spellPrefab[((int)currentMagicType + indexer)], spawnPoint.transform.position, spawnPoint.transform.rotation);
-                    LightningCooldown = 0;
-                }
-                break;
-            case MagicType.Fire:
-                Debug.Log("Cast light Fire");
-                if (FireCooldown >= FireCoolDownTotal && canCast)
-                {
-                    Instantiate(spellPrefab[((int)currentMagicType + indexer)], spawnPoint.transform.position, spawnPoint.transform.rotation);
-                    FireCooldown = 0;
-                }
-                break;
-            case MagicType.Water:
-                Debug.Log("Cast light Water");
-                if (WaterCooldown >= WaterCoolDownTotal && canCast)
-                {
-                    Instantiate(spellPrefab[((int)currentMagicType + indexer)], spawnPoint.transform.position, spawnPoint.transform.rotation);
-                    WaterCooldown = 0;
-                }
-                break;
-            case MagicType.Metal:
-                Debug.Log("Cast light Metal");
-                if (MetalCooldown >= MetalCoolDownTotal && canCast)
-                {
-                    Instantiate(spellPrefab[((int)currentMagicType + indexer)], spawnPoint.transform.position, spawnPoint.transform.rotation);
-                    MetalCooldown = 0;
-                }
-                break;
-            default:
-                Debug.Log("This is supposed to play a particle but you defaulted");
-                break;
-        }
-        canCast = false;
-        */
     }
    
     public void MagicIndicatorTimers()

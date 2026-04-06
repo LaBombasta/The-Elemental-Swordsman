@@ -6,11 +6,20 @@ public class LightningBall : BasicSpell
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.GetComponent<CharacterStats>())
+        if (collision.gameObject.layer == 6)
+        {
+            EndSpell();
+            return;
+        }
+        if (collision.gameObject.GetComponent<CharacterStats>())
         {
             if(collision.gameObject.GetComponent<CharacterStats>().team != teamFlag)
             {
                 EndSpell();
+            }
+            if(collision.gameObject.GetComponent<EnvironmentDestructable>())
+            {
+                collision.BroadcastMessage("TakeDamage", AttackValues,SendMessageOptions.DontRequireReceiver);
             }
             
         }

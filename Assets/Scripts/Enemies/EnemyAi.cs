@@ -12,7 +12,8 @@ public class EnemyAi : MonoBehaviour
     [SerializeField] private float attackRadius;
     public float patrolDistance;
     public Transform target;
-    
+
+    [SerializeField] private bool pursue = false;
     private bool LockedOn;
     
     
@@ -36,7 +37,14 @@ public class EnemyAi : MonoBehaviour
     {
         stateMachine = GetComponent<StateMachine>();
         //InvokeRepeating("EvaluateBehaviour", 0, 1);
-        StartCoroutine(Patrol());
+        if(!pursue)
+        {
+            StartCoroutine(Patrol());
+        }else
+        {
+            StartCoroutine(Pursue());
+        }
+        
         //seeker.StartPath(rb.position, target.position, OnPathComplete);
         //StartEnemyBehaviour();
     }
@@ -104,10 +112,10 @@ public class EnemyAi : MonoBehaviour
     {
         //Debug.Log("patrol");
         MoveDirection lastDirection = MoveDirection.None;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1f);
         for (; ; )
         {
-            
+            EvaluateBehaviour();
             MoveDirection patrolDir = (MoveDirection)Random.Range(0, 4);
             while(patrolDir == lastDirection)
             {
@@ -133,7 +141,7 @@ public class EnemyAi : MonoBehaviour
                 default:
                     break;
             }
-            EvaluateBehaviour();
+            
             yield return new WaitForSeconds(Random.Range(2,3.5f));  
         }
     }
@@ -203,7 +211,13 @@ public class EnemyAi : MonoBehaviour
     void LookAtTarget()
     {
         Vector2 facingDirection = ((Vector2)target.position - rb.position).normalized;
+
         //Debug.Log(facingDirection);
+        animator.SetFloat("Horizontal", facingDirection.x);
+        animator.SetFloat("Vertical", facingDirection.y);
+        animator.SetFloat("LastHorizontal", facingDirection.x);
+        animator.SetFloat("LastVertical", facingDirection.y);
+        /*
         if (Mathf.Abs(facingDirection.y) >= Mathf.Abs(facingDirection.x))
         {
             float sign = facingDirection.y / Mathf.Abs(facingDirection.y);
@@ -220,6 +234,7 @@ public class EnemyAi : MonoBehaviour
             animator.SetFloat("LastHorizontal", sign);
             animator.SetFloat("LastVertical", 0f);
         }
+        */
 
 
     }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public enum TeamIdentity : sbyte
 {
@@ -19,6 +20,7 @@ public enum StatusEffect : sbyte
 }
 public class CharacterStats : MonoBehaviour
 {
+    public bool perfectPress = false;
     [Header("Character Identification")]
     public TeamIdentity team = TeamIdentity.Neutral;
     public string Name;
@@ -29,6 +31,7 @@ public class CharacterStats : MonoBehaviour
     public float Health;
     public float MaxHealth;
     public Image healthBar;
+    public GameObject FloatingText;
 
     [Header("Visual Effects")]
     public ParticleSystem hitEffect;
@@ -40,6 +43,7 @@ public class CharacterStats : MonoBehaviour
     public HitBoxType hitType;
     private float stunTime;
     public float MoveSpeed;
+   
     
     public GameObject thisCharacter;
 
@@ -50,7 +54,7 @@ public class CharacterStats : MonoBehaviour
     public float[] StatusTypeResistances;//This must have a value for all status types even if it is 0;
 
     public bool alive = true;
-    public bool invincible { get; set; }
+    public bool Invincible = false;
     public bool noMove = false;
 
     [Header("Status Effect Values")]
@@ -83,27 +87,59 @@ public class CharacterStats : MonoBehaviour
     }
     public void TakeDamage(float[] damage)
     {
-        if (!invincible)
+        if(team == TeamIdentity.Environment)
+        {
+            return;
+        }
+        if (!Invincible)
         {
             SFXSource.PlayOneShot(stunned);
-        }
+        } //Hurt animations need this to be changed to else {return;} to prevent multiple hits. In short invicible is being used wrong in this script
         else
         {
             SFXSource.PlayOneShot(shielded);
+            if(!boss)
+            {
+                Health -= damage[0] / 3;
+
+            }
+            if (FloatingText)
+            {
+                int damageUndiv = (int)(damage[0] / 3); 
+                SpawnFloatingText("-" + damageUndiv, 5);
+                float magicResistI = Resistances[(MagicType)damage[2]];
+                float modifierI = 100 - magicResistI;
+                if ((MagicType)damage[2] != MagicType.None)
+                {
+                    modifierI /= 100;
+                    float elementalDamageI = damage[1] * modifierI;
+                    Health -= elementalDamageI/3;
+                    int e = (int)elementalDamageI/3;
+                    SpawnFloatingText("-" + e.ToString(), (int)damage[2]);
+                }
+            }
             return;
         }
-        //Debug.Log(this.gameObject.name + " is taking damage?");
+        
+        float normalResist = Resistances[(MagicType)damage[2]];
         Health -= damage[0];
         stunTime = damage[4];
-        //this works
-        //Debug.Log(damage[2]);
-        //Debug.Log((MagicType)damage[2]);j
+        if(FloatingText && damage[0] > 0)
+        {
+            int d = (int)damage[0];
+            SpawnFloatingText("-"+ damage[0].ToString(), 5);
+        }
+        
         float magicResist = Resistances[(MagicType)damage[2]];
         float modifier = 100 - magicResist;
-        modifier /= 100;
-        float elementalDamage = damage[1] * modifier;
-        Health -= elementalDamage;
-
+        if ((MagicType)damage[2] != MagicType.None)
+        {
+            modifier /= 100;
+            float elementalDamage = damage[1] * modifier;
+            Health -= elementalDamage;
+            int e = (int)elementalDamage;
+            SpawnFloatingText("-" + e.ToString(), (int)damage[2]);
+        }
         
         if (healthBar)
         {
@@ -147,7 +183,35 @@ public class CharacterStats : MonoBehaviour
         }
         
     }
-    
+    void SpawnFloatingText(string info, int colorType)
+    {
+        if(info == "-0")
+        {
+            return;
+        }
+        var floatText = Instantiate(FloatingText, transform.position, Quaternion.identity, transform);
+        floatText.GetComponent<TextMeshPro>().text = info;
+        floatText.GetComponent<TextMeshPro>().color = ChooseTextColor(colorType);
+        floatText.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-.5f,.5f),1)*200);
+        Vector3 randomOffset = new Vector3(Random.Range(-.75f, .75f), Random.Range(-.5f, .5f), 0f);
+        floatText.transform.localPosition += randomOffset;
+    }
+    Color ChooseTextColor(int colorPicker)
+    {
+        switch(colorPicker)
+        {
+            case 0:
+                return Color.yellow;
+            case 1:
+                return Color.red;
+            case 2:
+                return Color.cyan;
+            case 3:
+                return Color.gray;
+            default:
+                return Color.white;
+        }
+    }
     public float GetStunTime()
     {
         return stunTime;

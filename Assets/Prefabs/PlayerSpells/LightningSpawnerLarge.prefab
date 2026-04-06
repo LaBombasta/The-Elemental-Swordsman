@@ -279,7 +279,7 @@ MonoBehaviour:
   - {fileID: 516718292294003935}
   - {fileID: 3049255656659412956}
   - {fileID: 5404196537351415962}
-  spell: {fileID: 2133659255923968907, guid: 5f30d3b3071c2264da03e205200cfe21, type: 3}
+  ObjectToSpawn: {fileID: 2133659255923968907, guid: 5f30d3b3071c2264da03e205200cfe21, type: 3}
 --- !u!114 &7677706978323546265
 MonoBehaviour:
   m_ObjectHideFlags: 0

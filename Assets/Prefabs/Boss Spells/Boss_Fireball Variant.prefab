@@ -65,6 +65,10 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7084894945715310248, guid: 870d5f0b6222fb24a8d488fcdc6e9205, type: 3}
+      propertyPath: SFX_explosion
+      value: 
+      objectReference: {fileID: 8300000, guid: 8c947170a2b5cc34fadaac6289c5409b, type: 3}
+    - target: {fileID: 7084894945715310248, guid: 870d5f0b6222fb24a8d488fcdc6e9205, type: 3}
       propertyPath: lingeringEffect
       value: 
       objectReference: {fileID: 8221792289318014332, guid: 2d28e4132b2ab8940b40ebac3934b383, type: 3}

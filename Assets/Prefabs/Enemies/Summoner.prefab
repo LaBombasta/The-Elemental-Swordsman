@@ -358,6 +358,7 @@ MonoBehaviour:
   Health: 250
   MaxHealth: 2000
   healthBar: {fileID: 0}
+  FloatingText: {fileID: 5408562264071015397, guid: 17e907135036b07409924a56527e245b, type: 3}
   hitEffect: {fileID: 0}
   AttackValue:
   - baseDamage: 0
@@ -389,6 +390,7 @@ MonoBehaviour:
   - 0
   StatusTypeResistances: []
   alive: 1
+  Invincible: 0
   noMove: 0
   SFXSource: {fileID: 1185514192591724694}
   stunned: {fileID: 8300000, guid: ccd2ded3a2c0bea419480b026bd918ce, type: 3}
