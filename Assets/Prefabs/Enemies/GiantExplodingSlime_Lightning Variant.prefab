@@ -64,6 +64,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5172006419947583838, guid: 3b1fa0f67a2630946a69d95879818a4d, type: 3}
+      propertyPath: DamageTypeResitances.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172006419947583838, guid: 3b1fa0f67a2630946a69d95879818a4d, type: 3}
+      propertyPath: DamageTypeResitances.Array.data[1]
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172006419947583838, guid: 3b1fa0f67a2630946a69d95879818a4d, type: 3}
+      propertyPath: DamageTypeResitances.Array.data[2]
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172006419947583838, guid: 3b1fa0f67a2630946a69d95879818a4d, type: 3}
+      propertyPath: DamageTypeResitances.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172006419947583838, guid: 3b1fa0f67a2630946a69d95879818a4d, type: 3}
+      propertyPath: DamageTypeResitances.Array.data[4]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6322390027795231299, guid: 3b1fa0f67a2630946a69d95879818a4d, type: 3}
       propertyPath: subeffect
       value: 

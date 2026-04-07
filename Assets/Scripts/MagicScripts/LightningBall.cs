@@ -9,6 +9,7 @@ public class LightningBall : BasicSpell
         if (collision.gameObject.layer == 6)
         {
             EndSpell();
+            collision.BroadcastMessage("TakeDamage", AttackValues, SendMessageOptions.DontRequireReceiver);
             return;
         }
         if (collision.gameObject.GetComponent<CharacterStats>())

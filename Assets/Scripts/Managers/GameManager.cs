@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        UpdateScore(0);
+        //UpdateScore(0);
         myInput = GetComponent<InputManager>();
     }
     public void UpdateScore(int amount)

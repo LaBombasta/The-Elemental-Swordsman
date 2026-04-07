@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 19850504165394423, guid: b10debb5f2378ee4996b4dab13cd519b, type: 3}
+      propertyPath: DamageTypeResitances.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 19850504165394423, guid: b10debb5f2378ee4996b4dab13cd519b, type: 3}
+      propertyPath: DamageTypeResitances.Array.data[1]
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 19850504165394423, guid: b10debb5f2378ee4996b4dab13cd519b, type: 3}
+      propertyPath: DamageTypeResitances.Array.data[2]
+      value: 85
+      objectReference: {fileID: 0}
     - target: {fileID: 2574784281096710745, guid: b10debb5f2378ee4996b4dab13cd519b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.226072

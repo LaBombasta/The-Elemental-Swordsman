@@ -169,7 +169,7 @@ public class CharacterStats : MonoBehaviour
                     meleeStateMachine.SetNextState(new StunnedState());
                     break;
                 case StatusEffect.Frozen:
-                    stunTime += stunTime * modifier;
+                    //stunTime += stunTime * modifier;
                     meleeStateMachine.SetNextState(new FrozenState());
                     break;
                 case StatusEffect.Shocked:
@@ -182,6 +182,19 @@ public class CharacterStats : MonoBehaviour
                     
         }
         
+    }
+
+    public void HealMe(float healAmt)
+    {
+        Health += healAmt;
+        if(Health>MaxHealth)
+        {
+            Health = MaxHealth;
+        }
+        if (healthBar)
+        {
+            healthBar.fillAmount = Health / MaxHealth;
+        }
     }
     void SpawnFloatingText(string info, int colorType)
     {

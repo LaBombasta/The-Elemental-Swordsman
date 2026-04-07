@@ -9,9 +9,8 @@ public class DeathEnemyState : HurtState
         base.OnEnter(_stateMachine);
         duration = 1.2f;
         animator.SetTrigger("Death");
-        GameManager.instance.UpdateScore(1);
+        //GameManager.instance.UpdateScore(1);
         
-        //AudioManager.instance.PlaySoundEffects(AudioManager.instance.Dying);
     }
     public override void OnUpdate()
     {

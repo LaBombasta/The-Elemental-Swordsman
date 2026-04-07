@@ -82,6 +82,10 @@ public class EnemyAi : MonoBehaviour
         }
         
     }
+    public void PursuitTrigger()
+    {
+        StartCoroutine(Pursue());
+    }
     public void EvaluateAttack()
     {
         if (stateMachine.CurrentState.GetType() == typeof(IdleEnemyState))
@@ -188,7 +192,7 @@ public class EnemyAi : MonoBehaviour
     {
         if(seeker.IsDone())
         {
-            seeker.StartPath(rb.position, target.position, OnPathComplete);
+            seeker.StartPath(rb.position, (target.position + new Vector3((float)Random.Range(-3f, 3f), (float)Random.Range(-3f, 3f), 0)), OnPathComplete);
         }
         
     }

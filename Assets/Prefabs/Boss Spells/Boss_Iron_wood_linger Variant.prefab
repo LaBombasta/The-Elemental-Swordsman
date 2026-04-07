@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: teamFlag
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8286685389229372254, guid: e146bfc50edf0e34787ae5399c08005b, type: 3}
+      propertyPath: explosionForceMultiplier
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

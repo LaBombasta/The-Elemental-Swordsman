@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 318441971950790678, guid: 002782a8cf8d33f40b7e4742b982f0d0, type: 3}
+      propertyPath: stunTime
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 318441971950790678, guid: 002782a8cf8d33f40b7e4742b982f0d0, type: 3}
       propertyPath: teamFlag
       value: 2
       objectReference: {fileID: 0}

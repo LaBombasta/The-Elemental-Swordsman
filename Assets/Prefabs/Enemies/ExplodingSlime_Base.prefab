@@ -193,8 +193,8 @@ MonoBehaviour:
   Name: Exploding Slime
   boss: 0
   enemyAi: {fileID: 8375852853567443691}
-  Health: 150
-  MaxHealth: 150
+  Health: 95
+  MaxHealth: 95
   healthBar: {fileID: 0}
   FloatingText: {fileID: 5408562264071015397, guid: 17e907135036b07409924a56527e245b, type: 3}
   hitEffect: {fileID: 0}
@@ -209,7 +209,7 @@ MonoBehaviour:
     StunTime: 0
   hitbox: {fileID: 0}
   hitType: {fileID: 0}
-  MoveSpeed: 500
+  MoveSpeed: 750
   thisCharacter: {fileID: 0}
   statusEffect: 0
   DamageTypeResitances:
