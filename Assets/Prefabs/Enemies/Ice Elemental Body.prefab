@@ -172,7 +172,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -151606230, guid: da6bb332e3a09c64eb806dd076a93774, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.2971698, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -221,6 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e85fef3342fd147ade25bea6cf7844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  perfectPress: 0
   team: 2
   Name: Ice Elemental
   boss: 0
@@ -278,6 +279,7 @@ MonoBehaviour:
   attackRadius: 2
   patrolDistance: 5
   target: {fileID: 0}
+  pursue: 0
   stateMachine: {fileID: 3239327909445255464}
 --- !u!95 &4288401867693670558
 Animator:
@@ -5592,7 +5594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5974739324804505770
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5667,7 +5669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5024283172128405334
 RectTransform:
   m_ObjectHideFlags: 0

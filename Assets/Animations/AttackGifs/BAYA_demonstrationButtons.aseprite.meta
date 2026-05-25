@@ -1,0 +1,2499 @@
+fileFormatVersion: 2
+guid: ae9515e6874a1bf40a5df3714377dc9e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 34
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 639127312012707275
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: BAYA_demonstrationButtons_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 512
+      height: 256
+    spriteID: e2d3ff5b74a5692409df448c76092edc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: BAYA_demonstrationButtons_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 196805f56405584459fafa7689ed2509
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 4}
+  - name: BAYA_demonstrationButtons_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 01e599e54109cc743a7abe538835ec51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 4}
+  - name: BAYA_demonstrationButtons_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 5538444c96f8aae4989d99dcb16fd710
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 4}
+  - name: BAYA_demonstrationButtons_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 07de148dc078da64abce63e023bdc1f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 4}
+  - name: BAYA_demonstrationButtons_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 748ba5044b657704e849a8aa71a00f52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 4}
+  - name: BAYA_demonstrationButtons_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 4
+      width: 512
+      height: 256
+    spriteID: aaa61194ed0bc1b47a88679e944d0c76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 4}
+  - name: BAYA_demonstrationButtons_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 268
+      width: 512
+      height: 256
+    spriteID: e12ffb9980a08c648b00bb4da7df6e32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 268}
+  - name: BAYA_demonstrationButtons_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 0259fe406f997a4459c0472b79909b31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 268}
+  - name: BAYA_demonstrationButtons_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 268
+      width: 512
+      height: 256
+    spriteID: f967f7012b6803148ae510b5aa095e64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 268}
+  - name: BAYA_demonstrationButtons_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 7acedcacbe5fe814aaf34f3ea99080f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 268}
+  - name: BAYA_demonstrationButtons_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 957da78306f794746b44c5ce2ab4faad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 268}
+  - name: BAYA_demonstrationButtons_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 49ec9d5b90be24b4889cc69fbf0f108d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 268}
+  - name: BAYA_demonstrationButtons_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 7be6ae2b336954843a7f276605b27902
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 268}
+  - name: BAYA_demonstrationButtons_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 1c1845369d1f8884e94c266875596057
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 532}
+  - name: BAYA_demonstrationButtons_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 532
+      width: 512
+      height: 256
+    spriteID: d63cecc7561a056498689f98de3fb582
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 532}
+  - name: BAYA_demonstrationButtons_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 037120aa6c30f724b89bca259391b08a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 532}
+  - name: BAYA_demonstrationButtons_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 89eef037a2e3c054aaa4f21fb4dc32a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 532}
+  - name: BAYA_demonstrationButtons_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 3437215e83d4778428e06474c44f21cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 532}
+  - name: BAYA_demonstrationButtons_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 28eaa1fa1287a2c46b0fe21131354cf5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 532}
+  - name: BAYA_demonstrationButtons_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 52b451bc106b47b4caf1270877dcf48d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 532}
+  - name: BAYA_demonstrationButtons_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 796
+      width: 512
+      height: 256
+    spriteID: ddfc2ba295bf3414981cba2fa689b573
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 796}
+  - name: BAYA_demonstrationButtons_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 796
+      width: 512
+      height: 256
+    spriteID: 891cabdc394f3454199e755a43527bbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 796}
+  - name: BAYA_demonstrationButtons_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 796
+      width: 512
+      height: 256
+    spriteID: 4831b43f7ce295e48b0e31023029bfa8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 796}
+  - name: BAYA_demonstrationButtons_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 796
+      width: 512
+      height: 256
+    spriteID: f3baacda560732642ac46d5189f8588f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 796}
+  - name: BAYA_demonstrationButtons_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 796
+      width: 512
+      height: 256
+    spriteID: 47b7545436acd5a4e8794907d0511c69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 796}
+  - name: BAYA_demonstrationButtons_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 796
+      width: 512
+      height: 256
+    spriteID: fa5d0ce065bd0074ba16d0524872609e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 796}
+  - name: BAYA_demonstrationButtons_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 796
+      width: 512
+      height: 256
+    spriteID: b9abfc07f0e6cba4985f41805aaa2cff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 796}
+  - name: BAYA_demonstrationButtons_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 6166d48c96d178d4596a0a89943e2244
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1060}
+  - name: BAYA_demonstrationButtons_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 8e0e09916a90a4d47bf1f62f58397246
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1060}
+  - name: BAYA_demonstrationButtons_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 3240a77fba60fd143b793e1ba74527d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1060}
+  - name: BAYA_demonstrationButtons_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: bb03ff2a834eada4aad546fd9accc0ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1060}
+  - name: BAYA_demonstrationButtons_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 1a52475c85f96b1418538f2fcf9a0e2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 1060}
+  - name: BAYA_demonstrationButtons_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 9bc5ef31a38d1784f95d01cd14a572c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 1060}
+  - name: BAYA_demonstrationButtons_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 513d5150d0d66024382bdff8d158a065
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 1060}
+  - name: BAYA_demonstrationButtons_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 2de47c599010a834f90c533df35af48e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1324}
+  - name: BAYA_demonstrationButtons_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 0f66d76ecbc9ce74c92230d5e058aa33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1324}
+  - name: BAYA_demonstrationButtons_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 85b32009414d6cf488833bba24b0b800
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1324}
+  - name: BAYA_demonstrationButtons_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 940fcfcdfc8059d459dbfaebe684efc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1324}
+  - name: BAYA_demonstrationButtons_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 828cee9ccf80ae74cabab9e324237147
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 1324}
+  - name: BAYA_demonstrationButtons_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 16a289205e08aa84998d85678520de37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 1324}
+  - name: BAYA_demonstrationButtons_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 84f22646b6ecc8c4d8f2b708b9d3cca4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 1324}
+  - name: BAYA_demonstrationButtons_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: ee1ed498cb95c8e4d9bee8f0b3e63c39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1588}
+  - name: BAYA_demonstrationButtons_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 6033f906d2accb447a9c7c690021f894
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1588}
+  - name: BAYA_demonstrationButtons_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: b0be3e7406ba6a049960df0467b3cd03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1588}
+  - name: BAYA_demonstrationButtons_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 7c9ba8922f99b4e44b0db5ac9ba979f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1588}
+  - name: BAYA_demonstrationButtons_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: f928fa34871747743bf6a1be31cc5414
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 1588}
+  - name: BAYA_demonstrationButtons_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 86788cd1d3a48eb4b8a453daaa652411
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 1588}
+  - name: BAYA_demonstrationButtons_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: f01d172199a3b354dac8a0f098b50137
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 1588}
+  - name: BAYA_demonstrationButtons_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: e2b3475001ee42a4582098e7784eef6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1852}
+  - name: BAYA_demonstrationButtons_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: a04366187b252104a86241528e708e29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1852}
+  - name: BAYA_demonstrationButtons_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 7199a73d6bd2b0847b231dca84bf6e37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1852}
+  - name: BAYA_demonstrationButtons_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 8ac619ba2fb81b54ab5cc670768cec48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1852}
+  - name: BAYA_demonstrationButtons_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: dcdae26290b828045a45265e1d5d187b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 1852}
+  - name: BAYA_demonstrationButtons_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 64c9cf000e1f1a5438d69266d1f5bdfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 1852}
+  - name: BAYA_demonstrationButtons_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 8771977c392dd064eb0f8aafdd3c9d34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 1852}
+  - name: BAYA_demonstrationButtons_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 724aef5393889b6448d62a84b6d1cc40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2116}
+  - name: BAYA_demonstrationButtons_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 22158fde3b65b1c468335f6dc91014c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2116}
+  - name: BAYA_demonstrationButtons_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 6f5f03ef0ad6cc540a9527588ecaa622
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2116}
+  - name: BAYA_demonstrationButtons_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: b33559fa2bfe0c54da4e49f6e52def0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2116}
+  - name: BAYA_demonstrationButtons_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 8be23070061ea1b40b241905c8d42e30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 2116}
+  - name: BAYA_demonstrationButtons_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: fba9d038dc857dd43ab32f0d9d9986f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 2116}
+  - name: BAYA_demonstrationButtons_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 776aae09fd714fa4cbb8269f909459f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 2116}
+  - name: BAYA_demonstrationButtons_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: 08edd15cd9faf0443ac991142ab87d48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2380}
+  - name: BAYA_demonstrationButtons_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: 7e51bcf2e0eca6043afbf4afe0a743db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2380}
+  - name: BAYA_demonstrationButtons_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: dad45d028c0020945a22b2db7fd41387
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2380}
+  - name: BAYA_demonstrationButtons_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: e449ddf82e66cff40b6c5cab5fc78703
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2380}
+  - name: BAYA_demonstrationButtons_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: fc363f44b78d1584c95db15f339c8534
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 2380}
+  - name: BAYA_demonstrationButtons_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: 82bbc895a60ab8643aacf14ef65346b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 2380}
+  - name: BAYA_demonstrationButtons_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: fe390ce29ed8c1548ad30281d831e6c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 2380}
+  - name: BAYA_demonstrationButtons_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: 436a84786029c804cb35beeb9e473faa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2644}
+  - name: BAYA_demonstrationButtons_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: 800068a596002f047ba04b9433dd96bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2644}
+  - name: BAYA_demonstrationButtons_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: e90cb890a4ddf384483d03a7242281ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2644}
+  - name: BAYA_demonstrationButtons_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: a9c2bfae356df7d40b36f76b329acc4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2644}
+  - name: BAYA_demonstrationButtons_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: 2f488328a11a1074b9df40e6fabac9cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 2644}
+  - name: BAYA_demonstrationButtons_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: 38e6e40e821e3ab4dbe43ae99ceb5d75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 2644}
+  - name: BAYA_demonstrationButtons_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: a6d44480b200cd345b3041602fe138d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 2644}
+  - name: BAYA_demonstrationButtons_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: c02287eea33fd9f498a106e278d7af34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2908}
+  - name: BAYA_demonstrationButtons_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: b56273dce6571d34d8d6f4598931f387
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2908}
+  - name: BAYA_demonstrationButtons_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: f776ebc815f85324b84c02de4a05b94e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2908}
+  - name: BAYA_demonstrationButtons_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: bf7f93d004d3ac9468b437af4b0fea82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2908}
+  - name: BAYA_demonstrationButtons_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: f9c466f2068474c438ea653b9d5e2859
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 2908}
+  - name: BAYA_demonstrationButtons_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: 11b26b86bc2506f4d93b76dff8d44ece
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 2908}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1737183394
+    name: BAYA_demonstrationButtons
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: BAYA_demonstrationButtons_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e2d3ff5b74a5692409df448c76092edc
+    - name: BAYA_demonstrationButtons_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 196805f56405584459fafa7689ed2509
+    - name: BAYA_demonstrationButtons_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 01e599e54109cc743a7abe538835ec51
+    - name: BAYA_demonstrationButtons_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 5538444c96f8aae4989d99dcb16fd710
+    - name: BAYA_demonstrationButtons_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 07de148dc078da64abce63e023bdc1f6
+    - name: BAYA_demonstrationButtons_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 748ba5044b657704e849a8aa71a00f52
+    - name: BAYA_demonstrationButtons_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: aaa61194ed0bc1b47a88679e944d0c76
+    - name: BAYA_demonstrationButtons_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e12ffb9980a08c648b00bb4da7df6e32
+    - name: BAYA_demonstrationButtons_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 0259fe406f997a4459c0472b79909b31
+    - name: BAYA_demonstrationButtons_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f967f7012b6803148ae510b5aa095e64
+    - name: BAYA_demonstrationButtons_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7acedcacbe5fe814aaf34f3ea99080f4
+    - name: BAYA_demonstrationButtons_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 957da78306f794746b44c5ce2ab4faad
+    - name: BAYA_demonstrationButtons_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 49ec9d5b90be24b4889cc69fbf0f108d
+    - name: BAYA_demonstrationButtons_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7be6ae2b336954843a7f276605b27902
+    - name: BAYA_demonstrationButtons_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1c1845369d1f8884e94c266875596057
+    - name: BAYA_demonstrationButtons_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d63cecc7561a056498689f98de3fb582
+    - name: BAYA_demonstrationButtons_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 037120aa6c30f724b89bca259391b08a
+    - name: BAYA_demonstrationButtons_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 89eef037a2e3c054aaa4f21fb4dc32a9
+    - name: BAYA_demonstrationButtons_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 3437215e83d4778428e06474c44f21cb
+    - name: BAYA_demonstrationButtons_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 28eaa1fa1287a2c46b0fe21131354cf5
+    - name: BAYA_demonstrationButtons_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 52b451bc106b47b4caf1270877dcf48d
+    - name: BAYA_demonstrationButtons_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ddfc2ba295bf3414981cba2fa689b573
+    - name: BAYA_demonstrationButtons_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 891cabdc394f3454199e755a43527bbb
+    - name: BAYA_demonstrationButtons_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 4831b43f7ce295e48b0e31023029bfa8
+    - name: BAYA_demonstrationButtons_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f3baacda560732642ac46d5189f8588f
+    - name: BAYA_demonstrationButtons_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 47b7545436acd5a4e8794907d0511c69
+    - name: BAYA_demonstrationButtons_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: fa5d0ce065bd0074ba16d0524872609e
+    - name: BAYA_demonstrationButtons_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b9abfc07f0e6cba4985f41805aaa2cff
+    - name: BAYA_demonstrationButtons_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6166d48c96d178d4596a0a89943e2244
+    - name: BAYA_demonstrationButtons_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 8e0e09916a90a4d47bf1f62f58397246
+    - name: BAYA_demonstrationButtons_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 3240a77fba60fd143b793e1ba74527d5
+    - name: BAYA_demonstrationButtons_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: bb03ff2a834eada4aad546fd9accc0ff
+    - name: BAYA_demonstrationButtons_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1a52475c85f96b1418538f2fcf9a0e2e
+    - name: BAYA_demonstrationButtons_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9bc5ef31a38d1784f95d01cd14a572c8
+    - name: BAYA_demonstrationButtons_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 513d5150d0d66024382bdff8d158a065
+    - name: BAYA_demonstrationButtons_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2de47c599010a834f90c533df35af48e
+    - name: BAYA_demonstrationButtons_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 0f66d76ecbc9ce74c92230d5e058aa33
+    - name: BAYA_demonstrationButtons_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 85b32009414d6cf488833bba24b0b800
+    - name: BAYA_demonstrationButtons_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 940fcfcdfc8059d459dbfaebe684efc2
+    - name: BAYA_demonstrationButtons_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 828cee9ccf80ae74cabab9e324237147
+    - name: BAYA_demonstrationButtons_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 16a289205e08aa84998d85678520de37
+    - name: BAYA_demonstrationButtons_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 84f22646b6ecc8c4d8f2b708b9d3cca4
+    - name: BAYA_demonstrationButtons_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ee1ed498cb95c8e4d9bee8f0b3e63c39
+    - name: BAYA_demonstrationButtons_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6033f906d2accb447a9c7c690021f894
+    - name: BAYA_demonstrationButtons_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b0be3e7406ba6a049960df0467b3cd03
+    - name: BAYA_demonstrationButtons_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7c9ba8922f99b4e44b0db5ac9ba979f9
+    - name: BAYA_demonstrationButtons_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f928fa34871747743bf6a1be31cc5414
+    - name: BAYA_demonstrationButtons_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 86788cd1d3a48eb4b8a453daaa652411
+    - name: BAYA_demonstrationButtons_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f01d172199a3b354dac8a0f098b50137
+    - name: BAYA_demonstrationButtons_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e2b3475001ee42a4582098e7784eef6a
+    - name: BAYA_demonstrationButtons_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: a04366187b252104a86241528e708e29
+    - name: BAYA_demonstrationButtons_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7199a73d6bd2b0847b231dca84bf6e37
+    - name: BAYA_demonstrationButtons_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 8ac619ba2fb81b54ab5cc670768cec48
+    - name: BAYA_demonstrationButtons_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: dcdae26290b828045a45265e1d5d187b
+    - name: BAYA_demonstrationButtons_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 64c9cf000e1f1a5438d69266d1f5bdfd
+    - name: BAYA_demonstrationButtons_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 8771977c392dd064eb0f8aafdd3c9d34
+    - name: BAYA_demonstrationButtons_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 724aef5393889b6448d62a84b6d1cc40
+    - name: BAYA_demonstrationButtons_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 22158fde3b65b1c468335f6dc91014c0
+    - name: BAYA_demonstrationButtons_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6f5f03ef0ad6cc540a9527588ecaa622
+    - name: BAYA_demonstrationButtons_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b33559fa2bfe0c54da4e49f6e52def0e
+    - name: BAYA_demonstrationButtons_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 8be23070061ea1b40b241905c8d42e30
+    - name: BAYA_demonstrationButtons_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: fba9d038dc857dd43ab32f0d9d9986f7
+    - name: BAYA_demonstrationButtons_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 776aae09fd714fa4cbb8269f909459f4
+    - name: BAYA_demonstrationButtons_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 08edd15cd9faf0443ac991142ab87d48
+    - name: BAYA_demonstrationButtons_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7e51bcf2e0eca6043afbf4afe0a743db
+    - name: BAYA_demonstrationButtons_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: dad45d028c0020945a22b2db7fd41387
+    - name: BAYA_demonstrationButtons_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e449ddf82e66cff40b6c5cab5fc78703
+    - name: BAYA_demonstrationButtons_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: fc363f44b78d1584c95db15f339c8534
+    - name: BAYA_demonstrationButtons_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 82bbc895a60ab8643aacf14ef65346b6
+    - name: BAYA_demonstrationButtons_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: fe390ce29ed8c1548ad30281d831e6c6
+    - name: BAYA_demonstrationButtons_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 436a84786029c804cb35beeb9e473faa
+    - name: BAYA_demonstrationButtons_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 800068a596002f047ba04b9433dd96bf
+    - name: BAYA_demonstrationButtons_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e90cb890a4ddf384483d03a7242281ad
+    - name: BAYA_demonstrationButtons_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: a9c2bfae356df7d40b36f76b329acc4a
+    - name: BAYA_demonstrationButtons_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2f488328a11a1074b9df40e6fabac9cd
+    - name: BAYA_demonstrationButtons_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 38e6e40e821e3ab4dbe43ae99ceb5d75
+    - name: BAYA_demonstrationButtons_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: a6d44480b200cd345b3041602fe138d0
+    - name: BAYA_demonstrationButtons_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: c02287eea33fd9f498a106e278d7af34
+    - name: BAYA_demonstrationButtons_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b56273dce6571d34d8d6f4598931f387
+    - name: BAYA_demonstrationButtons_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f776ebc815f85324b84c02de4a05b94e
+    - name: BAYA_demonstrationButtons_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: bf7f93d004d3ac9468b437af4b0fea82
+    - name: BAYA_demonstrationButtons_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f9c466f2068474c438ea653b9d5e2859
+    - name: BAYA_demonstrationButtons_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 11b26b86bc2506f4d93b76dff8d44ece
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 512, y: 256}

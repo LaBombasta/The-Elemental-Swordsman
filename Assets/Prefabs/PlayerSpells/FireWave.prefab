@@ -108,7 +108,7 @@ MonoBehaviour:
   magicType: 1
   statusEffect: 0
   baseDamage: 0
-  magicDamage: 100
+  magicDamage: 75
   stunTime: 0
   speed: 10
   lifeTime: 0.5

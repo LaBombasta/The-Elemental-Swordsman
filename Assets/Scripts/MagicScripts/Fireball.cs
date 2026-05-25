@@ -24,20 +24,23 @@ public class Fireball : BasicSpell
         {
             CharacterStats hitEntity = j.GetComponentInChildren<CharacterStats>();
 
-
-            // Only check colliders with a valid Team Componnent attached
-            if (hitEntity && (hitEntity.team != teamFlag))
+            if(!collidersDamaged.Contains(j.gameObject))
             {
-                j.BroadcastMessage("TakeDamage", AttackValues, SendMessageOptions.DontRequireReceiver);
-                Rigidbody2D rb = j.GetComponent<Rigidbody2D>();
-                if (rb != null)
+                if (hitEntity && (hitEntity.team != teamFlag))
                 {
-                    Vector2 distance = j.transform.position - transform.position;
-                    float explosionForce = explosionForceMultiplier / distance.magnitude;
-                    rb.velocity = new Vector2(0, 0);
-                    rb.AddForce(distance.normalized * explosionForce);
+                    j.BroadcastMessage("TakeDamage", AttackValues, SendMessageOptions.DontRequireReceiver);
+                    Rigidbody2D rb = j.GetComponent<Rigidbody2D>();
+                    if (rb != null)
+                    {
+                        Vector2 distance = j.transform.position - transform.position;
+                        float explosionForce = explosionForceMultiplier / distance.magnitude;
+                        rb.velocity = new Vector2(0, 0);
+                        rb.AddForce(distance.normalized * explosionForce);
+                    }
+                    collidersDamaged.Add(j.gameObject);
                 }
             }
+            
 
         }
 

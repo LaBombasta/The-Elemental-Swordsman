@@ -127,8 +127,8 @@ MonoBehaviour:
   hitCollider: {fileID: 0}
   magicType: 3
   statusEffect: 0
-  baseDamage: 5
-  magicDamage: 0
+  baseDamage: 0
+  magicDamage: 15
   stunTime: 0.1
   speed: 0
   lifeTime: 2.5

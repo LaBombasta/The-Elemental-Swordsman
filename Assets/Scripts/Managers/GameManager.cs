@@ -64,6 +64,7 @@ public class GameManager : MonoBehaviour
     
     public IEnumerator EndTheGame()
     {
+        AudioManager.instance.PlayVictorySFX();
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene("WinningScreen");
     }

@@ -296,6 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e85fef3342fd147ade25bea6cf7844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  perfectPress: 0
   team: 2
   Name: Ice Elemental
   boss: 0
@@ -306,9 +307,9 @@ MonoBehaviour:
   FloatingText: {fileID: 5408562264071015397, guid: 17e907135036b07409924a56527e245b, type: 3}
   hitEffect: {fileID: 0}
   AttackValue:
-  - baseDamage: 15
-    magicDamage: 0
-    magicType: 2
+  - baseDamage: 0
+    magicDamage: 15
+    magicType: 0
     statusEffect: 0
     Speed: 1
     Duration: 2.85
@@ -353,6 +354,7 @@ MonoBehaviour:
   attackRadius: 2
   patrolDistance: 5
   target: {fileID: 0}
+  pursue: 0
   stateMachine: {fileID: 5044042599028468895}
 --- !u!95 &6965538145142340757
 Animator:
@@ -593,7 +595,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2928833359708015506
 RectTransform:
   m_ObjectHideFlags: 0
@@ -965,7 +967,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1123,7 +1125,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -1176,7 +1178,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -1229,8 +1231,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotation:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0
+      minMaxState: 3
+      scalar: 6.283185
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -2223,10 +2225,9 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: -713387659, guid: 0f3bfd1899a882b479030e6072572ed0, type: 3}
-    - sprite: {fileID: 2121184261, guid: 0f3bfd1899a882b479030e6072572ed0, type: 3}
-    - sprite: {fileID: -2065669199, guid: 0f3bfd1899a882b479030e6072572ed0, type: 3}
-    - sprite: {fileID: 325258401, guid: 0f3bfd1899a882b479030e6072572ed0, type: 3}
+    - sprite: {fileID: -1816013276, guid: 939d8b2f8e0afed488c2617ed53082b5, type: 3}
+    - sprite: {fileID: 274667849, guid: 939d8b2f8e0afed488c2617ed53082b5, type: 3}
+    - sprite: {fileID: 541589426, guid: 939d8b2f8e0afed488c2617ed53082b5, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:

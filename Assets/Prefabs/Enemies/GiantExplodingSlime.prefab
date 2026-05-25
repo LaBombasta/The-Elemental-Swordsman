@@ -210,7 +210,7 @@ MonoBehaviour:
     StunTime: 0
   hitbox: {fileID: 0}
   hitType: {fileID: 0}
-  MoveSpeed: 500
+  MoveSpeed: 350
   thisCharacter: {fileID: 0}
   statusEffect: 0
   DamageTypeResitances:

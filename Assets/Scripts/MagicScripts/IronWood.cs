@@ -39,11 +39,12 @@ public class IronWood : BasicSpell
                     Vector2 distance = j.transform.position - transform.position;
                     if(distance.magnitude !=0)
                     {
-                        explosionForce = explosionForceMultiplier / distance.magnitude;
+                        explosionForce = explosionForceMultiplier / (distance.magnitude +.05f);
+                        //Debug.Log(distance.magnitude);
                     }
                     else
                     {
-                        explosionForce = explosionForceMultiplier / .01f;
+                        explosionForce = explosionForceMultiplier / .1f;
                     }
                     
                     j.BroadcastMessage("TakeDamage", AttackValues, SendMessageOptions.DontRequireReceiver);

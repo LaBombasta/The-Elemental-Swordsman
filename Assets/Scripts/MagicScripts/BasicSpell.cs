@@ -44,6 +44,7 @@ public class BasicSpell : MonoBehaviour
         AttackValues[2] = (float)magicType;
         AttackValues[3] = (float)statusEffect;
         AttackValues[4] = stunTime;
+        collidersDamaged = new List<GameObject>();
         if (GetComponent<Rigidbody2D>())
         { rb.velocity = speed * -transform.up; }
     }

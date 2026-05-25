@@ -6,6 +6,7 @@ public class ComboStarter : MonoBehaviour
 {
     private StateMachine meleeStateMachine;
     private InputManager myInput;
+    public float DashTimer = 3;
 
     //public Collider2D hitbox;
     public HitBoxType hitType;
@@ -22,7 +23,6 @@ public class ComboStarter : MonoBehaviour
 
         if (InputManager._lightAttack.WasPressedThisFrame() && meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
         {
-
             meleeStateMachine.SetNextState(new LightAttackEntryState());
         }
         if(InputManager._heavyAttack.WasPressedThisFrame() && meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
@@ -34,6 +34,18 @@ public class ComboStarter : MonoBehaviour
         {
             meleeStateMachine.SetNextState(new MagicNoPreparationState());
         }
-        
+        if (InputManager._dash.WasPressedThisFrame() && meleeStateMachine.CurrentState.GetType() == typeof(IdleCombatState))
+        {
+            if(DashTimer >=3)
+            {
+                meleeStateMachine.SetNextState(new DashState());
+                DashTimer = 0;
+            }
+            
+        }
+        if(DashTimer<3)
+        {
+            DashTimer += Time.deltaTime;
+        }
     }
 }

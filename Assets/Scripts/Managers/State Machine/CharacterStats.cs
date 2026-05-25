@@ -101,7 +101,11 @@ public class CharacterStats : MonoBehaviour
             if(!boss)
             {
                 Health -= damage[0] / 3;
-
+                
+            }
+            else
+            {
+                return;
             }
             if (FloatingText)
             {
@@ -120,8 +124,9 @@ public class CharacterStats : MonoBehaviour
             }
             return;
         }
-        
+        //Debug.Log("Should be gettin ghere");
         float normalResist = Resistances[(MagicType)damage[2]];
+        //Debug.Log(damage[0]);
         Health -= damage[0];
         stunTime = damage[4];
         if(FloatingText && damage[0] > 0)

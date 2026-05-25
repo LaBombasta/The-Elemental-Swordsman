@@ -1,0 +1,3199 @@
+fileFormatVersion: 2
+guid: eead704896fbace418f81468d187e431
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 34
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 639127311020231845
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: ABYB_demonstrationButtons_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 01b672f79fefa864dacd62dc550fb6e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: ABYB_demonstrationButtons_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 9fcb59c872562ab41adc094950b27954
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 268}
+  - name: ABYB_demonstrationButtons_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 2c011d7a73ef67147a1dd50c9a46aa81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 532}
+  - name: ABYB_demonstrationButtons_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 796
+      width: 512
+      height: 256
+    spriteID: d8d433b417d1fbf4e97ba81a380ec6a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 796}
+  - name: ABYB_demonstrationButtons_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 2a49beea7fe6a2d49a39912843443920
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1060}
+  - name: ABYB_demonstrationButtons_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 6ae620dd226b25044b2ba95b103d7910
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1324}
+  - name: ABYB_demonstrationButtons_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 0644e6350819ef44a965794043c063ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1588}
+  - name: ABYB_demonstrationButtons_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 0908a2585125530458b415cb3cbb74c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1852}
+  - name: ABYB_demonstrationButtons_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 92dde963fa6733a4ba8570fb6f9e1ed7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2116}
+  - name: ABYB_demonstrationButtons_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: b23ded8696f3e0242a02c1ddad3669d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2380}
+  - name: ABYB_demonstrationButtons_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: ba1ff6c9495c1d94b87df9505c94c344
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2644}
+  - name: ABYB_demonstrationButtons_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: 6a516f91169b6af4a872208926104abe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2908}
+  - name: ABYB_demonstrationButtons_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: 070aefc01e3377f4d92fe589a8b15da3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3172}
+  - name: ABYB_demonstrationButtons_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3436
+      width: 512
+      height: 256
+    spriteID: 67e77386eb5b16646bfddcbf7abafcc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3436}
+  - name: ABYB_demonstrationButtons_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3700
+      width: 512
+      height: 256
+    spriteID: 30680983afe3d32488a7c661efd3fc62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3700}
+  - name: ABYB_demonstrationButtons_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3964
+      width: 512
+      height: 256
+    spriteID: 044386de9228ab44892f039609aa6530
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3964}
+  - name: ABYB_demonstrationButtons_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4228
+      width: 512
+      height: 256
+    spriteID: 54ec447f795f8024a924078f4e37ec3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4228}
+  - name: ABYB_demonstrationButtons_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4492
+      width: 512
+      height: 256
+    spriteID: e09b8f876e49b444d8440a5b179983cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4492}
+  - name: ABYB_demonstrationButtons_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4756
+      width: 512
+      height: 256
+    spriteID: 046ed7d4d563df24cb75187cb25b4190
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4756}
+  - name: ABYB_demonstrationButtons_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5020
+      width: 512
+      height: 256
+    spriteID: 9fc291ad769174b4a9642be3a58d5eaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5020}
+  - name: ABYB_demonstrationButtons_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5284
+      width: 512
+      height: 256
+    spriteID: af74db9cf237a94408d6d729e2b5612c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5284}
+  - name: ABYB_demonstrationButtons_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5548
+      width: 512
+      height: 256
+    spriteID: 9ac9e8f88300f2049a57e7ce1e3c7020
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5548}
+  - name: ABYB_demonstrationButtons_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5812
+      width: 512
+      height: 256
+    spriteID: a5d7037fb05e18d45b4554dbd75cb124
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5812}
+  - name: ABYB_demonstrationButtons_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6076
+      width: 512
+      height: 256
+    spriteID: dffd3880180f8c24a96566c91a9b2bcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6076}
+  - name: ABYB_demonstrationButtons_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6340
+      width: 512
+      height: 256
+    spriteID: 8e5fd68fad787924cb8aa3872eac8cc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6340}
+  - name: ABYB_demonstrationButtons_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6604
+      width: 512
+      height: 256
+    spriteID: 8c52180a675037e47bc847940366a890
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6604}
+  - name: ABYB_demonstrationButtons_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6868
+      width: 512
+      height: 256
+    spriteID: 7e6a567e0cc526d43b16cf4e628c651b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 6868}
+  - name: ABYB_demonstrationButtons_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7132
+      width: 512
+      height: 256
+    spriteID: b1f47aa24dc44154b88dee381f9902ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 7132}
+  - name: ABYB_demonstrationButtons_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7396
+      width: 512
+      height: 256
+    spriteID: 6e13c1e4261baf443862c7159aba429d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 7396}
+  - name: ABYB_demonstrationButtons_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7660
+      width: 512
+      height: 256
+    spriteID: 7d64144195b0fe24f9297e11d5f9d83d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 7660}
+  - name: ABYB_demonstrationButtons_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7924
+      width: 512
+      height: 256
+    spriteID: 59796f1d55a21864784bb6c4a5b4c8fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 7924}
+  - name: ABYB_demonstrationButtons_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 1fa59c8ef6fe05e45ad216e2d36058da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 4}
+  - name: ABYB_demonstrationButtons_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 268
+      width: 512
+      height: 256
+    spriteID: b29159db4c78143489d1ce01e89f9990
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 268}
+  - name: ABYB_demonstrationButtons_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 889a09627a3ab5346a48ffb9596c8845
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 532}
+  - name: ABYB_demonstrationButtons_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 796
+      width: 512
+      height: 256
+    spriteID: 37b40c30e38466445890a36c8753a4ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 796}
+  - name: ABYB_demonstrationButtons_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 5f6ca05a271a5014bbc99db5d2e2261b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1060}
+  - name: ABYB_demonstrationButtons_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 8ad179c51d8464b4dbf7c5288364fe7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1324}
+  - name: ABYB_demonstrationButtons_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 561614464090c5c40acacd1bb20523fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1588}
+  - name: ABYB_demonstrationButtons_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 5d6018dd46e07ea49ad687c5bf7c1b11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1852}
+  - name: ABYB_demonstrationButtons_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: d4ca261b4956bd540b803f8dc68dfc73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2116}
+  - name: ABYB_demonstrationButtons_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: 853259a2477a2974eaa0196480ddd91e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2380}
+  - name: ABYB_demonstrationButtons_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: bdab8ffa5a4463f4fbc67b4312c0e36f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2644}
+  - name: ABYB_demonstrationButtons_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: 1363e679b85835541940693b67b04736
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2908}
+  - name: ABYB_demonstrationButtons_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: 2217fb236076e6841bf87eb1d4fc232b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 3172}
+  - name: ABYB_demonstrationButtons_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 3436
+      width: 512
+      height: 256
+    spriteID: 81bbe00d32342534c8def2eead7c0ca3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 3436}
+  - name: ABYB_demonstrationButtons_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 3700
+      width: 512
+      height: 256
+    spriteID: 027433c704b6ed24dadd3634606153d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 3700}
+  - name: ABYB_demonstrationButtons_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 3964
+      width: 512
+      height: 256
+    spriteID: feb9aab21840e4d4f88bc475c31bf264
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 3964}
+  - name: ABYB_demonstrationButtons_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 4228
+      width: 512
+      height: 256
+    spriteID: d41d088ab3e941f4684164f8be699da8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 4228}
+  - name: ABYB_demonstrationButtons_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 4492
+      width: 512
+      height: 256
+    spriteID: 625c178aff315de448c856e101d246a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 4492}
+  - name: ABYB_demonstrationButtons_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 4756
+      width: 512
+      height: 256
+    spriteID: f58ae7f44bcc44a4b8f5c46f251ef500
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 4756}
+  - name: ABYB_demonstrationButtons_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 5020
+      width: 512
+      height: 256
+    spriteID: 7b9c6e101c694d54d86fb40c2226d17f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 5020}
+  - name: ABYB_demonstrationButtons_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 5284
+      width: 512
+      height: 256
+    spriteID: 23412b9fc3822bb44880258e738ba627
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 5284}
+  - name: ABYB_demonstrationButtons_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 5548
+      width: 512
+      height: 256
+    spriteID: b2967aac67452a14aac9672d643b1209
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 5548}
+  - name: ABYB_demonstrationButtons_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 5812
+      width: 512
+      height: 256
+    spriteID: a3b4004da05038147951d6f6f7fe35dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 5812}
+  - name: ABYB_demonstrationButtons_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 6076
+      width: 512
+      height: 256
+    spriteID: ac0a730d27400494face4c107d833db1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 6076}
+  - name: ABYB_demonstrationButtons_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 6340
+      width: 512
+      height: 256
+    spriteID: e4b698ebb2a7fed4d875bc0fe92963cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 6340}
+  - name: ABYB_demonstrationButtons_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 6604
+      width: 512
+      height: 256
+    spriteID: dab93751a94b77a48ba56d5af9dea2a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 6604}
+  - name: ABYB_demonstrationButtons_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 6868
+      width: 512
+      height: 256
+    spriteID: 7403899de787ead4b84b56cc363ecc8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 6868}
+  - name: ABYB_demonstrationButtons_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 7132
+      width: 512
+      height: 256
+    spriteID: f379fde334e78094e9b6bcecdcb526ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 7132}
+  - name: ABYB_demonstrationButtons_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 7396
+      width: 512
+      height: 256
+    spriteID: 4eb50f4141351ef4cb193913801ba95e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 7396}
+  - name: ABYB_demonstrationButtons_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 7660
+      width: 512
+      height: 256
+    spriteID: 0076e8f68a013434782b5e42e0afd0f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 7660}
+  - name: ABYB_demonstrationButtons_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 7924
+      width: 512
+      height: 256
+    spriteID: 342b7ac9c7b45944b9b203e77e96b49d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 7924}
+  - name: ABYB_demonstrationButtons_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 4
+      width: 512
+      height: 256
+    spriteID: d83bbfa56a305834aa74aa54931009cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 4}
+  - name: ABYB_demonstrationButtons_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 268
+      width: 512
+      height: 256
+    spriteID: ec4d301c7608a6342a10837fc71317b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 268}
+  - name: ABYB_demonstrationButtons_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 532
+      width: 512
+      height: 256
+    spriteID: c13a099758b3037418544ee68cd1f17b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 532}
+  - name: ABYB_demonstrationButtons_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 796
+      width: 512
+      height: 256
+    spriteID: 07884fb0cab9a65408a9a8e16e90c0d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 796}
+  - name: ABYB_demonstrationButtons_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 30b2910af857b82498d41d82cc30ff9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1060}
+  - name: ABYB_demonstrationButtons_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 84bc33319cb613a45b4a4929c95fb952
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1324}
+  - name: ABYB_demonstrationButtons_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 02c6eab594abe9c4899c4e71be947463
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1588}
+  - name: ABYB_demonstrationButtons_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 695a6d8889ba4074583a6ffe62dd35aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1852}
+  - name: ABYB_demonstrationButtons_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 8aa9b712ae6a5a843aedaf11880158dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2116}
+  - name: ABYB_demonstrationButtons_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: 5a8ac1f7d9d8b6047ab3ded673e652bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2380}
+  - name: ABYB_demonstrationButtons_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: 0f5067558a1446b4293bf49748c5eed0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2644}
+  - name: ABYB_demonstrationButtons_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: 8c50ed8af6ab5fb4f8292412895b30e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2908}
+  - name: ABYB_demonstrationButtons_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: e5f82c1db36ec664ea53ae59eec44e13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 3172}
+  - name: ABYB_demonstrationButtons_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 3436
+      width: 512
+      height: 256
+    spriteID: d0464a5fa803cf945958f99f06001cbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 3436}
+  - name: ABYB_demonstrationButtons_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 3700
+      width: 512
+      height: 256
+    spriteID: f1086836a227fec408132e43bc40cda2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 3700}
+  - name: ABYB_demonstrationButtons_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 3964
+      width: 512
+      height: 256
+    spriteID: 26184178b5e8a314890782a3ca06f21e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 3964}
+  - name: ABYB_demonstrationButtons_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 4228
+      width: 512
+      height: 256
+    spriteID: ca5e521201447eb45bbddbb1cab0a87c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 4228}
+  - name: ABYB_demonstrationButtons_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 4492
+      width: 512
+      height: 256
+    spriteID: 292e804a75820924190821cbf813ca08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 4492}
+  - name: ABYB_demonstrationButtons_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 4756
+      width: 512
+      height: 256
+    spriteID: 1ad292d15e03d7849a0aec8aa83d2a38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 4756}
+  - name: ABYB_demonstrationButtons_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 5020
+      width: 512
+      height: 256
+    spriteID: 9cd6b25ca546675448d9d549241dc5f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 5020}
+  - name: ABYB_demonstrationButtons_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 5284
+      width: 512
+      height: 256
+    spriteID: 1c53c7365d7de4b459ccb2e81ca424f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 5284}
+  - name: ABYB_demonstrationButtons_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 5548
+      width: 512
+      height: 256
+    spriteID: 9746f27db75b8a2408ca598bb77f27ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 5548}
+  - name: ABYB_demonstrationButtons_Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 5812
+      width: 512
+      height: 256
+    spriteID: 1793b27a870c245408f910202a6f9f14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 5812}
+  - name: ABYB_demonstrationButtons_Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 6076
+      width: 512
+      height: 256
+    spriteID: 16cbb13f287e30044938c367a4fd9e73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 6076}
+  - name: ABYB_demonstrationButtons_Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 6340
+      width: 512
+      height: 256
+    spriteID: abd7690d259958d4bb0e8ab21153efce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 6340}
+  - name: ABYB_demonstrationButtons_Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 6604
+      width: 512
+      height: 256
+    spriteID: 88622b840c78cef44b8a31645c0b9d9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 6604}
+  - name: ABYB_demonstrationButtons_Frame_88
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 6868
+      width: 512
+      height: 256
+    spriteID: 6b2310be5bc8bc544970f1edd8f9c5e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 6868}
+  - name: ABYB_demonstrationButtons_Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 7132
+      width: 512
+      height: 256
+    spriteID: 3a33bff886c9b73489a58debb00c085e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 7132}
+  - name: ABYB_demonstrationButtons_Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 7396
+      width: 512
+      height: 256
+    spriteID: 7c4bacd4427602e439dea45f98e15347
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 7396}
+  - name: ABYB_demonstrationButtons_Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 7660
+      width: 512
+      height: 256
+    spriteID: d790e3201ed4df449be447247c16f6df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 7660}
+  - name: ABYB_demonstrationButtons_Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 7924
+      width: 512
+      height: 256
+    spriteID: a09caebdccb7ade42917d9e1fe368814
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 7924}
+  - name: ABYB_demonstrationButtons_Frame_93
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 2a6d6750e0507574c95b26bf86257f4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 4}
+  - name: ABYB_demonstrationButtons_Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 268
+      width: 512
+      height: 256
+    spriteID: d73c79da110b9d747a1c63d3cb2b36af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 268}
+  - name: ABYB_demonstrationButtons_Frame_95
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 532
+      width: 512
+      height: 256
+    spriteID: f19db509c8c543e408b3bdda2a19dfc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 532}
+  - name: ABYB_demonstrationButtons_Frame_96
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 796
+      width: 512
+      height: 256
+    spriteID: 06542d31b36792946aa1506daf916253
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 796}
+  - name: ABYB_demonstrationButtons_Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 92659cc3471071648ad01902eb65c8ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1060}
+  - name: ABYB_demonstrationButtons_Frame_98
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 1e6755a5e0f17a4459d50fe416c8863f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1324}
+  - name: ABYB_demonstrationButtons_Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 2712c9013b7f3e140bc0b7e691524dd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1588}
+  - name: ABYB_demonstrationButtons_Frame_100
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 02b6fadef8dd6674db11d3beb87ddeea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1852}
+  - name: ABYB_demonstrationButtons_Frame_101
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: e5d9f6eb77b7288449d5eaf63023c120
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2116}
+  - name: ABYB_demonstrationButtons_Frame_102
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: eeb175636cbef6049a25b7fbc8be9c60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2380}
+  - name: ABYB_demonstrationButtons_Frame_103
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: cfc86790261746540895d21727b67dd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2644}
+  - name: ABYB_demonstrationButtons_Frame_104
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: b5a004147a5c64345b1ea194e2dc2b45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2908}
+  - name: ABYB_demonstrationButtons_Frame_105
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: cab6bf9fac65036428840596779999ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 3172}
+  - name: ABYB_demonstrationButtons_Frame_106
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 3436
+      width: 512
+      height: 256
+    spriteID: dace1aeab6e1e424f80e6ac378384c5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 3436}
+  - name: ABYB_demonstrationButtons_Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 3700
+      width: 512
+      height: 256
+    spriteID: e9dae323dcac35c48aececa2d5f71e23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 3700}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1680602263
+    name: ABYB_demonstrationButtons
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: ABYB_demonstrationButtons_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 01b672f79fefa864dacd62dc550fb6e1
+    - name: ABYB_demonstrationButtons_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9fcb59c872562ab41adc094950b27954
+    - name: ABYB_demonstrationButtons_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2c011d7a73ef67147a1dd50c9a46aa81
+    - name: ABYB_demonstrationButtons_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d8d433b417d1fbf4e97ba81a380ec6a6
+    - name: ABYB_demonstrationButtons_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2a49beea7fe6a2d49a39912843443920
+    - name: ABYB_demonstrationButtons_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6ae620dd226b25044b2ba95b103d7910
+    - name: ABYB_demonstrationButtons_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 0644e6350819ef44a965794043c063ab
+    - name: ABYB_demonstrationButtons_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 0908a2585125530458b415cb3cbb74c9
+    - name: ABYB_demonstrationButtons_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 92dde963fa6733a4ba8570fb6f9e1ed7
+    - name: ABYB_demonstrationButtons_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b23ded8696f3e0242a02c1ddad3669d6
+    - name: ABYB_demonstrationButtons_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ba1ff6c9495c1d94b87df9505c94c344
+    - name: ABYB_demonstrationButtons_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6a516f91169b6af4a872208926104abe
+    - name: ABYB_demonstrationButtons_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 070aefc01e3377f4d92fe589a8b15da3
+    - name: ABYB_demonstrationButtons_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 67e77386eb5b16646bfddcbf7abafcc5
+    - name: ABYB_demonstrationButtons_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 30680983afe3d32488a7c661efd3fc62
+    - name: ABYB_demonstrationButtons_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 044386de9228ab44892f039609aa6530
+    - name: ABYB_demonstrationButtons_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 54ec447f795f8024a924078f4e37ec3e
+    - name: ABYB_demonstrationButtons_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e09b8f876e49b444d8440a5b179983cc
+    - name: ABYB_demonstrationButtons_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 046ed7d4d563df24cb75187cb25b4190
+    - name: ABYB_demonstrationButtons_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9fc291ad769174b4a9642be3a58d5eaa
+    - name: ABYB_demonstrationButtons_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: af74db9cf237a94408d6d729e2b5612c
+    - name: ABYB_demonstrationButtons_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9ac9e8f88300f2049a57e7ce1e3c7020
+    - name: ABYB_demonstrationButtons_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: a5d7037fb05e18d45b4554dbd75cb124
+    - name: ABYB_demonstrationButtons_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: dffd3880180f8c24a96566c91a9b2bcb
+    - name: ABYB_demonstrationButtons_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 8e5fd68fad787924cb8aa3872eac8cc8
+    - name: ABYB_demonstrationButtons_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 8c52180a675037e47bc847940366a890
+    - name: ABYB_demonstrationButtons_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7e6a567e0cc526d43b16cf4e628c651b
+    - name: ABYB_demonstrationButtons_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b1f47aa24dc44154b88dee381f9902ae
+    - name: ABYB_demonstrationButtons_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6e13c1e4261baf443862c7159aba429d
+    - name: ABYB_demonstrationButtons_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7d64144195b0fe24f9297e11d5f9d83d
+    - name: ABYB_demonstrationButtons_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 59796f1d55a21864784bb6c4a5b4c8fe
+    - name: ABYB_demonstrationButtons_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1fa59c8ef6fe05e45ad216e2d36058da
+    - name: ABYB_demonstrationButtons_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b29159db4c78143489d1ce01e89f9990
+    - name: ABYB_demonstrationButtons_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 889a09627a3ab5346a48ffb9596c8845
+    - name: ABYB_demonstrationButtons_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 37b40c30e38466445890a36c8753a4ea
+    - name: ABYB_demonstrationButtons_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 5f6ca05a271a5014bbc99db5d2e2261b
+    - name: ABYB_demonstrationButtons_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 8ad179c51d8464b4dbf7c5288364fe7a
+    - name: ABYB_demonstrationButtons_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 561614464090c5c40acacd1bb20523fe
+    - name: ABYB_demonstrationButtons_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 5d6018dd46e07ea49ad687c5bf7c1b11
+    - name: ABYB_demonstrationButtons_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d4ca261b4956bd540b803f8dc68dfc73
+    - name: ABYB_demonstrationButtons_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 853259a2477a2974eaa0196480ddd91e
+    - name: ABYB_demonstrationButtons_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: bdab8ffa5a4463f4fbc67b4312c0e36f
+    - name: ABYB_demonstrationButtons_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1363e679b85835541940693b67b04736
+    - name: ABYB_demonstrationButtons_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2217fb236076e6841bf87eb1d4fc232b
+    - name: ABYB_demonstrationButtons_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 81bbe00d32342534c8def2eead7c0ca3
+    - name: ABYB_demonstrationButtons_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 027433c704b6ed24dadd3634606153d0
+    - name: ABYB_demonstrationButtons_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: feb9aab21840e4d4f88bc475c31bf264
+    - name: ABYB_demonstrationButtons_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d41d088ab3e941f4684164f8be699da8
+    - name: ABYB_demonstrationButtons_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 625c178aff315de448c856e101d246a6
+    - name: ABYB_demonstrationButtons_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f58ae7f44bcc44a4b8f5c46f251ef500
+    - name: ABYB_demonstrationButtons_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7b9c6e101c694d54d86fb40c2226d17f
+    - name: ABYB_demonstrationButtons_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 23412b9fc3822bb44880258e738ba627
+    - name: ABYB_demonstrationButtons_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b2967aac67452a14aac9672d643b1209
+    - name: ABYB_demonstrationButtons_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: a3b4004da05038147951d6f6f7fe35dc
+    - name: ABYB_demonstrationButtons_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ac0a730d27400494face4c107d833db1
+    - name: ABYB_demonstrationButtons_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e4b698ebb2a7fed4d875bc0fe92963cf
+    - name: ABYB_demonstrationButtons_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: dab93751a94b77a48ba56d5af9dea2a6
+    - name: ABYB_demonstrationButtons_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7403899de787ead4b84b56cc363ecc8a
+    - name: ABYB_demonstrationButtons_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f379fde334e78094e9b6bcecdcb526ca
+    - name: ABYB_demonstrationButtons_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 4eb50f4141351ef4cb193913801ba95e
+    - name: ABYB_demonstrationButtons_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 0076e8f68a013434782b5e42e0afd0f5
+    - name: ABYB_demonstrationButtons_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 342b7ac9c7b45944b9b203e77e96b49d
+    - name: ABYB_demonstrationButtons_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d83bbfa56a305834aa74aa54931009cf
+    - name: ABYB_demonstrationButtons_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ec4d301c7608a6342a10837fc71317b9
+    - name: ABYB_demonstrationButtons_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: c13a099758b3037418544ee68cd1f17b
+    - name: ABYB_demonstrationButtons_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 07884fb0cab9a65408a9a8e16e90c0d4
+    - name: ABYB_demonstrationButtons_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 30b2910af857b82498d41d82cc30ff9d
+    - name: ABYB_demonstrationButtons_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 84bc33319cb613a45b4a4929c95fb952
+    - name: ABYB_demonstrationButtons_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 02c6eab594abe9c4899c4e71be947463
+    - name: ABYB_demonstrationButtons_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 695a6d8889ba4074583a6ffe62dd35aa
+    - name: ABYB_demonstrationButtons_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 8aa9b712ae6a5a843aedaf11880158dc
+    - name: ABYB_demonstrationButtons_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 5a8ac1f7d9d8b6047ab3ded673e652bb
+    - name: ABYB_demonstrationButtons_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 0f5067558a1446b4293bf49748c5eed0
+    - name: ABYB_demonstrationButtons_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 8c50ed8af6ab5fb4f8292412895b30e4
+    - name: ABYB_demonstrationButtons_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e5f82c1db36ec664ea53ae59eec44e13
+    - name: ABYB_demonstrationButtons_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d0464a5fa803cf945958f99f06001cbb
+    - name: ABYB_demonstrationButtons_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f1086836a227fec408132e43bc40cda2
+    - name: ABYB_demonstrationButtons_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 26184178b5e8a314890782a3ca06f21e
+    - name: ABYB_demonstrationButtons_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ca5e521201447eb45bbddbb1cab0a87c
+    - name: ABYB_demonstrationButtons_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 292e804a75820924190821cbf813ca08
+    - name: ABYB_demonstrationButtons_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1ad292d15e03d7849a0aec8aa83d2a38
+    - name: ABYB_demonstrationButtons_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9cd6b25ca546675448d9d549241dc5f4
+    - name: ABYB_demonstrationButtons_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1c53c7365d7de4b459ccb2e81ca424f4
+    - name: ABYB_demonstrationButtons_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9746f27db75b8a2408ca598bb77f27ba
+    - name: ABYB_demonstrationButtons_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1793b27a870c245408f910202a6f9f14
+    - name: ABYB_demonstrationButtons_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 16cbb13f287e30044938c367a4fd9e73
+    - name: ABYB_demonstrationButtons_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: abd7690d259958d4bb0e8ab21153efce
+    - name: ABYB_demonstrationButtons_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 88622b840c78cef44b8a31645c0b9d9a
+    - name: ABYB_demonstrationButtons_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6b2310be5bc8bc544970f1edd8f9c5e9
+    - name: ABYB_demonstrationButtons_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 3a33bff886c9b73489a58debb00c085e
+    - name: ABYB_demonstrationButtons_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7c4bacd4427602e439dea45f98e15347
+    - name: ABYB_demonstrationButtons_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d790e3201ed4df449be447247c16f6df
+    - name: ABYB_demonstrationButtons_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: a09caebdccb7ade42917d9e1fe368814
+    - name: ABYB_demonstrationButtons_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2a6d6750e0507574c95b26bf86257f4a
+    - name: ABYB_demonstrationButtons_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d73c79da110b9d747a1c63d3cb2b36af
+    - name: ABYB_demonstrationButtons_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f19db509c8c543e408b3bdda2a19dfc5
+    - name: ABYB_demonstrationButtons_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 06542d31b36792946aa1506daf916253
+    - name: ABYB_demonstrationButtons_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 92659cc3471071648ad01902eb65c8ba
+    - name: ABYB_demonstrationButtons_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1e6755a5e0f17a4459d50fe416c8863f
+    - name: ABYB_demonstrationButtons_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2712c9013b7f3e140bc0b7e691524dd6
+    - name: ABYB_demonstrationButtons_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 02b6fadef8dd6674db11d3beb87ddeea
+    - name: ABYB_demonstrationButtons_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e5d9f6eb77b7288449d5eaf63023c120
+    - name: ABYB_demonstrationButtons_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: eeb175636cbef6049a25b7fbc8be9c60
+    - name: ABYB_demonstrationButtons_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: cfc86790261746540895d21727b67dd8
+    - name: ABYB_demonstrationButtons_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b5a004147a5c64345b1ea194e2dc2b45
+    - name: ABYB_demonstrationButtons_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: cab6bf9fac65036428840596779999ff
+    - name: ABYB_demonstrationButtons_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: dace1aeab6e1e424f80e6ac378384c5e
+    - name: ABYB_demonstrationButtons_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e9dae323dcac35c48aececa2d5f71e23
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 512, y: 256}

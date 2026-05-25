@@ -14,6 +14,7 @@ public class InputManager : MonoBehaviour
     public static InputAction _heavyAttack;
     public static InputAction _magicPrep;
     public static InputAction _pause;
+    public static InputAction _dash;
     //private InputAction _lightAttack;
     //private InputAction _heavyAttack;
     //public static InputManager instance;
@@ -28,6 +29,7 @@ public class InputManager : MonoBehaviour
         _heavyAttack = _playerInput.actions["Heavy_Attack"];
         _magicPrep = _playerInput.actions["Magic_Prep"];
         _pause = _playerInput.actions["Pause"];
+        _dash = _playerInput.actions["Dash"];
 
 
     }

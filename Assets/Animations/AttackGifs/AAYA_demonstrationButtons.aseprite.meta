@@ -1,0 +1,2835 @@
+fileFormatVersion: 2
+guid: fd229431f80b63446bd7c72ed36d3601
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 34
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 639127310135403311
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: AAYA_demonstrationButtons_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 512
+      height: 256
+    spriteID: a3c533763941a9643998b1304dc1b0e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: AAYA_demonstrationButtons_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 4
+      width: 512
+      height: 256
+    spriteID: cbc10a703501f044097c890fb6ed5c19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 4}
+  - name: AAYA_demonstrationButtons_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 4
+      width: 512
+      height: 256
+    spriteID: a5dd5eca179d0cb4cab3a75f693491d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 4}
+  - name: AAYA_demonstrationButtons_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 57dd76ab0ffc7c140a7d0b09e94f026b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 4}
+  - name: AAYA_demonstrationButtons_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 4
+      width: 512
+      height: 256
+    spriteID: de589eae2de58254e9a308300dd92d4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 4}
+  - name: AAYA_demonstrationButtons_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 9b1ab40f2e1f9ad4381d84dd08763437
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 4}
+  - name: AAYA_demonstrationButtons_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 4
+      width: 512
+      height: 256
+    spriteID: 35c721ab7a01cf14d9b50676d4cde904
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 4}
+  - name: AAYA_demonstrationButtons_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 27cbfc9b8c2222c4bb86d2bf90f3dd93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 268}
+  - name: AAYA_demonstrationButtons_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 268
+      width: 512
+      height: 256
+    spriteID: c6756878184b2124c943017f46e38a32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 268}
+  - name: AAYA_demonstrationButtons_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 646fb30ed433bd3468d820f82d0d0c21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 268}
+  - name: AAYA_demonstrationButtons_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 268
+      width: 512
+      height: 256
+    spriteID: cc641a81c94888a45b7c601b65bab7de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 268}
+  - name: AAYA_demonstrationButtons_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 2bbb641c1fc08e1469f39c08fd99597d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 268}
+  - name: AAYA_demonstrationButtons_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 268
+      width: 512
+      height: 256
+    spriteID: c9ca63156ba6d9f4f80205ee4ad3c3f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 268}
+  - name: AAYA_demonstrationButtons_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 268
+      width: 512
+      height: 256
+    spriteID: 4a409311ff75d1645a015237e5703bf0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 268}
+  - name: AAYA_demonstrationButtons_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 532
+      width: 512
+      height: 256
+    spriteID: bd55228628486f24eb5e820c3b7f9abc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 532}
+  - name: AAYA_demonstrationButtons_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 1d4bc7da24f08b24eb35f75962bbd934
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 532}
+  - name: AAYA_demonstrationButtons_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 532
+      width: 512
+      height: 256
+    spriteID: bb0ef0dc2a377774ca13b47e553e27be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 532}
+  - name: AAYA_demonstrationButtons_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 37385cf1230868c4bbe8ad4f698450f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 532}
+  - name: AAYA_demonstrationButtons_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 29fed496d2db8d84f9547bf98247b6bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 532}
+  - name: AAYA_demonstrationButtons_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 532
+      width: 512
+      height: 256
+    spriteID: 79827b28a53d8ff46a2e7614d7864faf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 532}
+  - name: AAYA_demonstrationButtons_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 532
+      width: 512
+      height: 256
+    spriteID: e8a76f6c938a4054fa791d390d5daadc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 532}
+  - name: AAYA_demonstrationButtons_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 796
+      width: 512
+      height: 256
+    spriteID: b9740416edb69444e8ec9c25cb78177b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 796}
+  - name: AAYA_demonstrationButtons_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 796
+      width: 512
+      height: 256
+    spriteID: 5007d3d298970634abab602ac1200ec8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 796}
+  - name: AAYA_demonstrationButtons_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 796
+      width: 512
+      height: 256
+    spriteID: bdd78685aff58904ba56513de2ef195e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 796}
+  - name: AAYA_demonstrationButtons_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 796
+      width: 512
+      height: 256
+    spriteID: 534f1e9d9ab84034ca534c5fcca21f31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 796}
+  - name: AAYA_demonstrationButtons_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 796
+      width: 512
+      height: 256
+    spriteID: b809a35f2522c9842ace87fad46d3255
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 796}
+  - name: AAYA_demonstrationButtons_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 796
+      width: 512
+      height: 256
+    spriteID: bea5385e156fdd14ea859e4e36f1737c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 796}
+  - name: AAYA_demonstrationButtons_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 796
+      width: 512
+      height: 256
+    spriteID: c4b13e30cc4bd5e47b71f333ab62c5fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 796}
+  - name: AAYA_demonstrationButtons_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 9ffbc5bc2d295284c8bfee0cd7c47b83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1060}
+  - name: AAYA_demonstrationButtons_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 9b218eb9c16283841848b8d110801bc1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1060}
+  - name: AAYA_demonstrationButtons_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: bf4d0ffb2bacdce4a9600032255f3360
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1060}
+  - name: AAYA_demonstrationButtons_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 06483ab740311d549833aa3e3a27359e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1060}
+  - name: AAYA_demonstrationButtons_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: 6c52c4e03190c1645afcff9ac383a0b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 1060}
+  - name: AAYA_demonstrationButtons_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: ac77a307161066540bf1ac6ec8716711
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 1060}
+  - name: AAYA_demonstrationButtons_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 1060
+      width: 512
+      height: 256
+    spriteID: ca78f0829eac369458cd26fc17af2763
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 1060}
+  - name: AAYA_demonstrationButtons_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 06fc8dc1d6f8f5d4588e9a9b13546309
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1324}
+  - name: AAYA_demonstrationButtons_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: b33ef2d21d59e534484e38eed4bdb203
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1324}
+  - name: AAYA_demonstrationButtons_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: c050b156cd048c344aa40d86a9f0e47c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1324}
+  - name: AAYA_demonstrationButtons_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 1de637a4f91557a409333a6df9df4de7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1324}
+  - name: AAYA_demonstrationButtons_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 9fe4757df03766a448a38984c69dd685
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 1324}
+  - name: AAYA_demonstrationButtons_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 491b1c61c48fc9b45b8435e8081f6f58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 1324}
+  - name: AAYA_demonstrationButtons_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 1324
+      width: 512
+      height: 256
+    spriteID: 2250a2af74ea85d4b89615b39657f0c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 1324}
+  - name: AAYA_demonstrationButtons_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: faa8c28c4b0cb0f4596955685c0ac510
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1588}
+  - name: AAYA_demonstrationButtons_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 2396d6b3cc594484484480b5058321f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1588}
+  - name: AAYA_demonstrationButtons_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: ec8453eaad364ee45afdba6ca1eded2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1588}
+  - name: AAYA_demonstrationButtons_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 2436ef52deacd0d4aa77814393068484
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1588}
+  - name: AAYA_demonstrationButtons_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 1545b797fdcae4949b11f397d1603632
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 1588}
+  - name: AAYA_demonstrationButtons_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 6d44431f49dd5de4c8dca61674b7c098
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 1588}
+  - name: AAYA_demonstrationButtons_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 1588
+      width: 512
+      height: 256
+    spriteID: 57af21a887a14a341806830915f8566a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 1588}
+  - name: AAYA_demonstrationButtons_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: c518657fc43c9dd4bb615c7d2d6e13ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1852}
+  - name: AAYA_demonstrationButtons_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 80dd11a51dfd5274f9763e62d5cda2fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 1852}
+  - name: AAYA_demonstrationButtons_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 10576f5b64d5ccc45a373d40f1e0fe41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 1852}
+  - name: AAYA_demonstrationButtons_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: e91dc47a7ed7d7b4893fe7b1bb237064
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 1852}
+  - name: AAYA_demonstrationButtons_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: eecd6cc923296f645a2cf218e0b85242
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 1852}
+  - name: AAYA_demonstrationButtons_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 44eed37741433c744830af20b1f905de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 1852}
+  - name: AAYA_demonstrationButtons_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 1852
+      width: 512
+      height: 256
+    spriteID: 7997f5c75b609894c92b40909d7d6e88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 1852}
+  - name: AAYA_demonstrationButtons_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 97c8e1d92827d104f9df557123c94855
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2116}
+  - name: AAYA_demonstrationButtons_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 481f5c970ca68134b9295d3f5174784d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2116}
+  - name: AAYA_demonstrationButtons_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 4e8b329ccf020c64db3ea57249eebe37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2116}
+  - name: AAYA_demonstrationButtons_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: cf5069e01003b3a48a79329f6b7fe9e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2116}
+  - name: AAYA_demonstrationButtons_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: f25296cb5cfb7ad42a00f9f98b97a844
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 2116}
+  - name: AAYA_demonstrationButtons_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: 6de4c24470d92c745b727806e6d76ea5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 2116}
+  - name: AAYA_demonstrationButtons_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 2116
+      width: 512
+      height: 256
+    spriteID: be26e769ee5ca1248bffc8a6e5332e96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 2116}
+  - name: AAYA_demonstrationButtons_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: 5743cb4f0b9cf1440a9c3f0075e0a885
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2380}
+  - name: AAYA_demonstrationButtons_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: dc62ed05184927e4bafd61e050cdb0e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2380}
+  - name: AAYA_demonstrationButtons_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: ed045f7003374844395cda136ec7f105
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2380}
+  - name: AAYA_demonstrationButtons_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: bc652fab1a9ff794bb10de181b38bf9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2380}
+  - name: AAYA_demonstrationButtons_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: 4534d4fcd40c28a478ae94451f2fa300
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 2380}
+  - name: AAYA_demonstrationButtons_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: 55a5ac4dbc85b994fa490b1c8a7d0ade
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 2380}
+  - name: AAYA_demonstrationButtons_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 2380
+      width: 512
+      height: 256
+    spriteID: ff9908a2a2a65b54fb2181240a07e994
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 2380}
+  - name: AAYA_demonstrationButtons_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: 546dacc51e3224b46a03a07f4013df21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2644}
+  - name: AAYA_demonstrationButtons_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: 0f50e7230bbd4164cbe9efcc8b43893f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2644}
+  - name: AAYA_demonstrationButtons_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: 43932b1dbf1cef841a1c2fd2d583a7de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2644}
+  - name: AAYA_demonstrationButtons_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: afb8306c1a2f1474b924875892a67024
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2644}
+  - name: AAYA_demonstrationButtons_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: cf23669785267f04bb6a65e4d0ab693b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 2644}
+  - name: AAYA_demonstrationButtons_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: 1065194c65bcf9b4bacb2f90ffdc3945
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 2644}
+  - name: AAYA_demonstrationButtons_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 2644
+      width: 512
+      height: 256
+    spriteID: d0485f7e177ae954ab2468831bcf53a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 2644}
+  - name: AAYA_demonstrationButtons_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: c70e8d3b00ea0c2458f6b63493bf5eb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2908}
+  - name: AAYA_demonstrationButtons_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: f80e9a91164b58047831bcfcd9134682
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 2908}
+  - name: AAYA_demonstrationButtons_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: d4dbd6bfb0e352647b794dd7ec6618c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 2908}
+  - name: AAYA_demonstrationButtons_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: 2d5ee34f9d65c3540914733f5796de21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 2908}
+  - name: AAYA_demonstrationButtons_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: 817d1da0b06186445aa4bdf7b4d8e5df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 2908}
+  - name: AAYA_demonstrationButtons_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: 53b49ecbf65630e42be99499930fd4d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 2908}
+  - name: AAYA_demonstrationButtons_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 2908
+      width: 512
+      height: 256
+    spriteID: 4c0531be83eb8304784f88fef88567d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 2908}
+  - name: AAYA_demonstrationButtons_Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: 03b282ca19f8e944698f2b6aaea6fa10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3172}
+  - name: AAYA_demonstrationButtons_Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: 3ca00cbbf68f18c468e21ee1b06ee9e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 3172}
+  - name: AAYA_demonstrationButtons_Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: a8f2da0627f89154a846de01b615ad86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 3172}
+  - name: AAYA_demonstrationButtons_Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: efcd0df5a25777541aae7327e9f5d6bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 3172}
+  - name: AAYA_demonstrationButtons_Frame_88
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2084
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: 3c5db99448e5b1448958c99d5eb150cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2084, y: 3172}
+  - name: AAYA_demonstrationButtons_Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2604
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: 97e34fd6579d9a543bb15cfcac9395fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2604, y: 3172}
+  - name: AAYA_demonstrationButtons_Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3124
+      y: 3172
+      width: 512
+      height: 256
+    spriteID: e028f74ae966c7e499757c4f0f9fa7c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3124, y: 3172}
+  - name: AAYA_demonstrationButtons_Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3436
+      width: 512
+      height: 256
+    spriteID: d3a63727ae3435f46b0671f06ab36b2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3436}
+  - name: AAYA_demonstrationButtons_Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 3436
+      width: 512
+      height: 256
+    spriteID: cff24227a04f95747a0b6dfbcc5bbe44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 3436}
+  - name: AAYA_demonstrationButtons_Frame_93
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 3436
+      width: 512
+      height: 256
+    spriteID: 0ef0d6a4a1a360541a97f329a92219e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1044, y: 3436}
+  - name: AAYA_demonstrationButtons_Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 3436
+      width: 512
+      height: 256
+    spriteID: 3fb05b65aae96234face3e1a9b635ea5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1564, y: 3436}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1667233591
+    name: AAYA_demonstrationButtons
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: AAYA_demonstrationButtons_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: a3c533763941a9643998b1304dc1b0e0
+    - name: AAYA_demonstrationButtons_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: cbc10a703501f044097c890fb6ed5c19
+    - name: AAYA_demonstrationButtons_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: a5dd5eca179d0cb4cab3a75f693491d7
+    - name: AAYA_demonstrationButtons_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 57dd76ab0ffc7c140a7d0b09e94f026b
+    - name: AAYA_demonstrationButtons_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: de589eae2de58254e9a308300dd92d4a
+    - name: AAYA_demonstrationButtons_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9b1ab40f2e1f9ad4381d84dd08763437
+    - name: AAYA_demonstrationButtons_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 35c721ab7a01cf14d9b50676d4cde904
+    - name: AAYA_demonstrationButtons_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 27cbfc9b8c2222c4bb86d2bf90f3dd93
+    - name: AAYA_demonstrationButtons_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: c6756878184b2124c943017f46e38a32
+    - name: AAYA_demonstrationButtons_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 646fb30ed433bd3468d820f82d0d0c21
+    - name: AAYA_demonstrationButtons_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: cc641a81c94888a45b7c601b65bab7de
+    - name: AAYA_demonstrationButtons_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2bbb641c1fc08e1469f39c08fd99597d
+    - name: AAYA_demonstrationButtons_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: c9ca63156ba6d9f4f80205ee4ad3c3f7
+    - name: AAYA_demonstrationButtons_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 4a409311ff75d1645a015237e5703bf0
+    - name: AAYA_demonstrationButtons_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: bd55228628486f24eb5e820c3b7f9abc
+    - name: AAYA_demonstrationButtons_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1d4bc7da24f08b24eb35f75962bbd934
+    - name: AAYA_demonstrationButtons_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: bb0ef0dc2a377774ca13b47e553e27be
+    - name: AAYA_demonstrationButtons_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 37385cf1230868c4bbe8ad4f698450f8
+    - name: AAYA_demonstrationButtons_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 29fed496d2db8d84f9547bf98247b6bd
+    - name: AAYA_demonstrationButtons_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 79827b28a53d8ff46a2e7614d7864faf
+    - name: AAYA_demonstrationButtons_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e8a76f6c938a4054fa791d390d5daadc
+    - name: AAYA_demonstrationButtons_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b9740416edb69444e8ec9c25cb78177b
+    - name: AAYA_demonstrationButtons_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 5007d3d298970634abab602ac1200ec8
+    - name: AAYA_demonstrationButtons_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: bdd78685aff58904ba56513de2ef195e
+    - name: AAYA_demonstrationButtons_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 534f1e9d9ab84034ca534c5fcca21f31
+    - name: AAYA_demonstrationButtons_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b809a35f2522c9842ace87fad46d3255
+    - name: AAYA_demonstrationButtons_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: bea5385e156fdd14ea859e4e36f1737c
+    - name: AAYA_demonstrationButtons_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: c4b13e30cc4bd5e47b71f333ab62c5fb
+    - name: AAYA_demonstrationButtons_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9ffbc5bc2d295284c8bfee0cd7c47b83
+    - name: AAYA_demonstrationButtons_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9b218eb9c16283841848b8d110801bc1
+    - name: AAYA_demonstrationButtons_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: bf4d0ffb2bacdce4a9600032255f3360
+    - name: AAYA_demonstrationButtons_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 06483ab740311d549833aa3e3a27359e
+    - name: AAYA_demonstrationButtons_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6c52c4e03190c1645afcff9ac383a0b6
+    - name: AAYA_demonstrationButtons_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ac77a307161066540bf1ac6ec8716711
+    - name: AAYA_demonstrationButtons_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ca78f0829eac369458cd26fc17af2763
+    - name: AAYA_demonstrationButtons_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 06fc8dc1d6f8f5d4588e9a9b13546309
+    - name: AAYA_demonstrationButtons_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: b33ef2d21d59e534484e38eed4bdb203
+    - name: AAYA_demonstrationButtons_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: c050b156cd048c344aa40d86a9f0e47c
+    - name: AAYA_demonstrationButtons_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1de637a4f91557a409333a6df9df4de7
+    - name: AAYA_demonstrationButtons_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 9fe4757df03766a448a38984c69dd685
+    - name: AAYA_demonstrationButtons_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 491b1c61c48fc9b45b8435e8081f6f58
+    - name: AAYA_demonstrationButtons_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2250a2af74ea85d4b89615b39657f0c5
+    - name: AAYA_demonstrationButtons_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: faa8c28c4b0cb0f4596955685c0ac510
+    - name: AAYA_demonstrationButtons_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2396d6b3cc594484484480b5058321f6
+    - name: AAYA_demonstrationButtons_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ec8453eaad364ee45afdba6ca1eded2b
+    - name: AAYA_demonstrationButtons_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2436ef52deacd0d4aa77814393068484
+    - name: AAYA_demonstrationButtons_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1545b797fdcae4949b11f397d1603632
+    - name: AAYA_demonstrationButtons_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6d44431f49dd5de4c8dca61674b7c098
+    - name: AAYA_demonstrationButtons_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 57af21a887a14a341806830915f8566a
+    - name: AAYA_demonstrationButtons_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: c518657fc43c9dd4bb615c7d2d6e13ed
+    - name: AAYA_demonstrationButtons_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 80dd11a51dfd5274f9763e62d5cda2fc
+    - name: AAYA_demonstrationButtons_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 10576f5b64d5ccc45a373d40f1e0fe41
+    - name: AAYA_demonstrationButtons_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e91dc47a7ed7d7b4893fe7b1bb237064
+    - name: AAYA_demonstrationButtons_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: eecd6cc923296f645a2cf218e0b85242
+    - name: AAYA_demonstrationButtons_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 44eed37741433c744830af20b1f905de
+    - name: AAYA_demonstrationButtons_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 7997f5c75b609894c92b40909d7d6e88
+    - name: AAYA_demonstrationButtons_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 97c8e1d92827d104f9df557123c94855
+    - name: AAYA_demonstrationButtons_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 481f5c970ca68134b9295d3f5174784d
+    - name: AAYA_demonstrationButtons_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 4e8b329ccf020c64db3ea57249eebe37
+    - name: AAYA_demonstrationButtons_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: cf5069e01003b3a48a79329f6b7fe9e4
+    - name: AAYA_demonstrationButtons_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f25296cb5cfb7ad42a00f9f98b97a844
+    - name: AAYA_demonstrationButtons_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 6de4c24470d92c745b727806e6d76ea5
+    - name: AAYA_demonstrationButtons_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: be26e769ee5ca1248bffc8a6e5332e96
+    - name: AAYA_demonstrationButtons_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 5743cb4f0b9cf1440a9c3f0075e0a885
+    - name: AAYA_demonstrationButtons_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: dc62ed05184927e4bafd61e050cdb0e0
+    - name: AAYA_demonstrationButtons_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ed045f7003374844395cda136ec7f105
+    - name: AAYA_demonstrationButtons_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: bc652fab1a9ff794bb10de181b38bf9d
+    - name: AAYA_demonstrationButtons_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 4534d4fcd40c28a478ae94451f2fa300
+    - name: AAYA_demonstrationButtons_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 55a5ac4dbc85b994fa490b1c8a7d0ade
+    - name: AAYA_demonstrationButtons_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: ff9908a2a2a65b54fb2181240a07e994
+    - name: AAYA_demonstrationButtons_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 546dacc51e3224b46a03a07f4013df21
+    - name: AAYA_demonstrationButtons_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 0f50e7230bbd4164cbe9efcc8b43893f
+    - name: AAYA_demonstrationButtons_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 43932b1dbf1cef841a1c2fd2d583a7de
+    - name: AAYA_demonstrationButtons_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: afb8306c1a2f1474b924875892a67024
+    - name: AAYA_demonstrationButtons_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: cf23669785267f04bb6a65e4d0ab693b
+    - name: AAYA_demonstrationButtons_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 1065194c65bcf9b4bacb2f90ffdc3945
+    - name: AAYA_demonstrationButtons_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d0485f7e177ae954ab2468831bcf53a9
+    - name: AAYA_demonstrationButtons_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: c70e8d3b00ea0c2458f6b63493bf5eb2
+    - name: AAYA_demonstrationButtons_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: f80e9a91164b58047831bcfcd9134682
+    - name: AAYA_demonstrationButtons_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d4dbd6bfb0e352647b794dd7ec6618c9
+    - name: AAYA_demonstrationButtons_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 2d5ee34f9d65c3540914733f5796de21
+    - name: AAYA_demonstrationButtons_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 817d1da0b06186445aa4bdf7b4d8e5df
+    - name: AAYA_demonstrationButtons_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 53b49ecbf65630e42be99499930fd4d9
+    - name: AAYA_demonstrationButtons_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 4c0531be83eb8304784f88fef88567d0
+    - name: AAYA_demonstrationButtons_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 03b282ca19f8e944698f2b6aaea6fa10
+    - name: AAYA_demonstrationButtons_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 3ca00cbbf68f18c468e21ee1b06ee9e6
+    - name: AAYA_demonstrationButtons_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: a8f2da0627f89154a846de01b615ad86
+    - name: AAYA_demonstrationButtons_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: efcd0df5a25777541aae7327e9f5d6bd
+    - name: AAYA_demonstrationButtons_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 3c5db99448e5b1448958c99d5eb150cb
+    - name: AAYA_demonstrationButtons_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 97e34fd6579d9a543bb15cfcac9395fa
+    - name: AAYA_demonstrationButtons_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: e028f74ae966c7e499757c4f0f9fa7c1
+    - name: AAYA_demonstrationButtons_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: d3a63727ae3435f46b0671f06ab36b2b
+    - name: AAYA_demonstrationButtons_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: cff24227a04f95747a0b6dfbcc5bbe44
+    - name: AAYA_demonstrationButtons_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 0ef0d6a4a1a360541a97f329a92219e9
+    - name: AAYA_demonstrationButtons_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 0
+        y: 0
+        width: 512
+        height: 256
+      spriteId: 3fb05b65aae96234face3e1a9b635ea5
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 512, y: 256}

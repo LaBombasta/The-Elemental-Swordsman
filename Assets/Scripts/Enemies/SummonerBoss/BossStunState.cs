@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossStunState : State
 {
     protected Animator animator;
-    protected float duration = 7f;
+    protected float duration = 12f;
     public override void OnEnter(StateMachine _stateMachine)
     {
         base.OnEnter(_stateMachine);

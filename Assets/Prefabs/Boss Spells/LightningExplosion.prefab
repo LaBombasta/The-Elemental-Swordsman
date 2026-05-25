@@ -50,7 +50,7 @@ MonoBehaviour:
   magicType: 0
   statusEffect: 0
   baseDamage: 5
-  magicDamage: 0
+  magicDamage: 10
   stunTime: 0.1
   speed: 0
   lifeTime: 0

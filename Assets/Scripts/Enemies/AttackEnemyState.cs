@@ -12,7 +12,7 @@ public class AttackEnemyState : AttackBaseState
         attackIndex = 1;
         AssignAttackValues(0);
         animator.SetTrigger("Attack" + attackIndex);
-        //Debug.Log("Enemy Attack Entry State");
+        Debug.Log("Enemy Attack Entry State");
     }
 
     public override void OnUpdate()
